@@ -1,0 +1,71 @@
+{% if site.theme.facebook %}
+<li>
+	<a href="https://www.facebook.com/{{ site.theme.facebook }}" title="{{ site.theme.str_follow_on }} Facebook" target="_blank">
+		<i class="fa fa-fw fa-facebook"></i>
+	</a>
+</li>
+{% endif %}
+
+{% if site.theme.github %}
+<li>
+	<a href="https://github.com/{{ site.theme.github }}" title="{{ site.theme.str_follow_on }} GitHub" target="_blank">
+		<i class="fa fa-fw fa-github"></i>
+	</a>
+</li>
+{% endif %}
+
+{% if site.theme.google_plus %}
+<li>
+	<a href="https://plus.google.com/{{ site.theme.google_plus }}" title="{{ site.theme.str_follow_on }} Google+" target="_blank">
+		<i class="fa fa-fw fa-google-plus"></i>
+	</a>
+</li>
+{% endif %}
+
+{% if site.theme.instagram %}
+<li>
+	<a href="http://instagram.com/{{ site.theme.instagram }}" title="{{ site.theme.str_follow_on }} Instagram" target="_blank">
+		<i class="fa fa-fw fa-instagram"></i>
+	</a>
+</li>
+{% endif %}
+
+{% if site.theme.linkedin %}
+<li>
+	<a href="{{ site.theme.linkedin }}" title="{{ site.theme.str_follow_on }} LinkedIn" target="_blank">
+		<i class="fa fa-fw fa-linkedin"></i>
+	</a>
+</li>
+{% endif %}
+
+{% if site.theme.twitter %}
+<li>
+	<a href="https://twitter.com/{{ site.theme.twitter }}" title="{{ site.theme.str_follow_on }} Twitter" target="_blank">
+		<i class="fa fa-fw fa-twitter"></i>
+	</a>
+</li>
+{% endif %}
+
+{% if site.theme.youtube %}
+<li>
+	<a href="https://www.youtube.com/user/{{ site.theme.youtube }}" title="{{ site.theme.str_follow_on }} YouTube" target="_blank">
+		<i class="fa fa-fw fa-youtube"></i>
+	</a>
+</li>
+{% endif %}
+
+{% if site.theme.email_address %}
+<li>
+	<a href="mailto:{{ site.theme.email_address }}" title="{{ site.theme.str_email }}">
+		<i class="fa fa-fw fa-envelope"></i>
+	</a>
+</li>
+{% endif %}
+
+{% if site.theme.rss %}
+<li>
+	<a href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" title="{{ site.theme.str_rss_follow }}" target="_blank">
+		<i class="fa fa-fw fa-rss"></i>
+	</a>
+</li>
+{% endif %}

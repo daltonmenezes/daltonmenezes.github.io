@@ -1,0 +1,36 @@
+<header class="site-header">
+	<div class="branding">
+		{% if site.theme.gravatar %}
+		<a href="{{ site.baseurl }}/">
+			<img class="avatar" src="https://secure.gravatar.com/avatar/{{ site.theme.gravatar }}?s=100" alt=""/>
+		</a>
+		{% elsif site.theme.avatar %}
+		<a href="{{ site.baseurl }}/">
+			<img class="avatar" src="{{ site.baseurl }}/img/{{ site.theme.avatar }}" alt=""/>
+		</a>
+		{% endif %}
+		<h1 class="site-title">
+			<a href="{{ site.baseurl }}/">{{ site.theme.title }}<span class='typee'>|</span></a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+		<ul>
+			<li>
+				<a class="page-links" href="{{ site.baseurl }}/">
+					[ posts ]
+				</a>
+			</li>			
+			{% for page in site.pages %}
+			{% if page.title and page.hide != true %}
+			<li>
+				<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
+					{{ page.title }}
+				</a>
+			</li>
+			{% endif %}
+			{% endfor %}
+			<!-- Social icons from Font Awesome, if enabled -->
+			{% include icons.html %}
+		</ul>
+	</nav>
+</header>
