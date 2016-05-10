@@ -2,13 +2,13 @@
 layout: post
 title: "What is the quickest way to evolve?"
 ---
-That's would be the question of one million dollars? Well, if the question is listed on one million dollars I do not know, but the answer is certainly free and simple: erring, taking out these errors of anonymity and allow to other more experienced people to help you get it right.
+Would that be the one million dollars question? Well, if the question costs one million dollars I do not know, but the answer is certainly free and simple: erring, taking out these errors of anonymity and allow to other more experienced people to help you get it right.
 
-### Oh, so it's that simple?
+### so, is it that simple?
 
-Yes, it is. What is difficult is to fight against our own ego, against our fears and have courage to show ourselves and face it so that others show us where we are going wrong and how we can evolve from that. After all, in anonymity we do not have good awareness about our mistakes.
+Yes, it is. What is difficult is to fight against our own ego, against our fears and have courage to show ourselves and take a chance so that others show us where we are going wrong and how we can evolve from that. After all, in anonymity we do not have good awareness about our mistakes.
 
-Some of my friends still have fear to create their accounts on github or show their codes. I confess that I have also experienced it. But what do we sacrifice in the name of anonymity? We just sacrifice our quickest evolution.
+Some of my friends are still afraid to create their accounts on github or show their codes. I confess that I have also experienced it. But what do we sacrifice in the name of anonymity? We just sacrifice our quickest evolution.
 
 The github consists in different kinds of developers and levels of knowledge, if you allow me here parameterize knowledge. Knowing this, is it worth not take advantage about what this platform brings to us?
 
