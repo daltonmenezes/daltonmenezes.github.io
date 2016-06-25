@@ -12,11 +12,13 @@ Para os meus posts em português, [visite meu blog em wordpress](https://daltonm
 
 <span class="tag">PHP</span>
 <span class="tag">PHPUnit</span>
+<span class="tag">Javascript</span>
+<span class="tag">Electron</span>
+<span class="tag">jQuery</span>
 <span class="tag">Python</span>
 <span class="tag">LUA</span>
 <span class="tag">HTML</span>
 <span class="tag">CSS</span>
-<span class="tag">jQuery</span>
 <span class="tag">OOP</span>
 <span class="tag">SOLID</span>
 <span class="tag">TDD</span>
