@@ -4,7 +4,7 @@ title: '[ about ]'
 permalink: /about/
 ---
 
-I'm 26, brazilian, born in Bahia, living in Rio de Janeiro since 2009, designer and software developer. Open source lover <i class="fa fa-heart" aria-hidden="true"></i>
+I'm 27, brazilian, born in Bahia, living in Rio de Janeiro since 2009, designer and software developer. Open source lover <i class="fa fa-heart" aria-hidden="true"></i>
 
 Para os meus posts em português, [visite meu blog em wordpress](https://daltonmenezes.wordpress.com).
 
@@ -16,6 +16,7 @@ Para os meus posts em português, [visite meu blog em wordpress](https://daltonm
 <span class="tag">Electron</span>
 <span class="tag">jQuery</span>
 <span class="tag">Python</span>
+<span class="tag">C</span>
 <span class="tag">LUA</span>
 <span class="tag">HTML</span>
 <span class="tag">CSS</span>
