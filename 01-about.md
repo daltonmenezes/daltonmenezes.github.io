@@ -16,7 +16,7 @@ Para os meus posts em português, [visite meu blog em wordpress](https://daltonm
 <span class="tag">Electron</span>
 <span class="tag">jQuery</span>
 <span class="tag">Python</span>
-<span class="tag">C</span>
+<span class="tag"> C </span>
 <span class="tag">LUA</span>
 <span class="tag">HTML</span>
 <span class="tag">CSS</span>
