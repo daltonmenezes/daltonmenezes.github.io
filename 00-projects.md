@@ -6,7 +6,7 @@ permalink: /projects/
 ---
 
 ### [Yout Player](https://youtplayer.github.io)
-Yout Player is the new way to watch playlists from Youtube on Desktop. Available for Linux and Windows.
+Yout Player is the new way to watch playlists from YouTube on Desktop. No YouTube ads, simple to use, floating window. Available for free for Linux, Mac and Windows.
 
 ### [eventScheduler](https://github.com/daltonmenezes/eventScheduler)
 Simple event scheduler application for PHP projects.
