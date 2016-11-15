@@ -14,5 +14,8 @@ A free and open source simple game that looks like Flappy Bird written in HTML5 
 ### [eventScheduler](https://github.com/daltonmenezes/eventScheduler)
 Simple event scheduler application for PHP projects.
 
+### [ubuntu-wallpaper-fix](https://github.com/daltonmenezes/ubuntu-wallpaper-fix)
+A shell script trick for wallpaper bug when Ubuntu is started with two (or more) connected monitors with different display interfaces.
+
 ### [ImdbTitleCrawler](https://github.com/daltonmenezes/ImdbTitleCrawler)
 Simple crawler written in Python that takes the title from profile of a movie or series on IMDB.
