@@ -17,5 +17,8 @@ Simple event scheduler application for PHP projects.
 ### [ubuntu-wallpaper-fix](https://github.com/daltonmenezes/ubuntu-wallpaper-fix)
 A shell script trick for wallpaper bug when Ubuntu is started with two (or more) connected monitors with different display interfaces.
 
+### [Researches](https://github.com/daltonmenezes/researches)
+Stuff about my researches in software development.
+
 ### [ImdbTitleCrawler](https://github.com/daltonmenezes/ImdbTitleCrawler)
 Simple crawler written in Python that takes the title from profile of a movie or series on IMDB.
