@@ -3,10 +3,10 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://daltonmenezes.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
-theme:
+theme_settings:
   # Meta
   title: ".Dalton Menezes"
-  avatar: avatar.jpg
+  #avatar: avatar.jpg
   gravatar: 43f6793db9348cfb8e692608cca69540
   description: "cyber daydreams, coded insults and silicon metaphorical orgasms" # used by search engines
 
