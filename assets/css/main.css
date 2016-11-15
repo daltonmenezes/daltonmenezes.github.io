@@ -39,10 +39,11 @@ li {
 a {
   text-decoration: none;
   color: #909090;
+  transition: color 0.5s;
 }
 
 a:hover {
-  font-weight: bold;
+  transition: color 0.5s;
 }
 
 .separator {
