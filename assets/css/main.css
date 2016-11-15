@@ -36,6 +36,11 @@ li {
   letter-spacing: 0.2em;
 }
 
+a {
+  text-decoration: none;
+  color: #909090;
+}
+
 .separator {
   display: inline-flex;
   margin: 0 20px 0 20px;
