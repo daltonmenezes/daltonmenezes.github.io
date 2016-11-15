@@ -21,7 +21,7 @@ theme_settings:
 
   # Icons
   rss: true
-  facebook:
+  facebook: https://www.facebook.com/dalton.menezes.oficial
   github: "daltonmenezes"
   google_plus:
   instagram:
