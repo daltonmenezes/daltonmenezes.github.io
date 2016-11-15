@@ -41,10 +41,30 @@ a {
   color: #909090;
 }
 
+a:hover {
+  font-weight: bold;
+}
+
 .separator {
   display: inline-flex;
   margin: 0 20px 0 20px;
   color: #c7c7c7;
+}
+
+#projects:hover {
+  color: #4b6e7a;
+}
+
+#blog:hover {
+  color: #94677d;
+}
+
+#about:hover {
+  color: #5c6c9b;
+}
+
+#contact:hover {
+  color: #85a98a;
 }
 
 #photo {
