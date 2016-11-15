@@ -1,0 +1,52 @@
+* { padding: 0; margin: 0; }
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #909090;
+  background-color: #e6e6e6;
+  cursor: default;
+}
+
+header {
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  margin-top: 75px;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 1.56em;
+  font-weight: 300;
+  transform: scale(1.22, 1.01);
+  letter-spacing: 0.2em;
+}
+
+ul {
+  margin-top: 50px;
+}
+
+li {
+  display: inline;
+  font-size: 1em;
+  font-weight: 300;
+  transform: scale(1.2, 1.01);
+  letter-spacing: 0.2em;
+}
+
+.separator {
+  display: inline-flex;
+  margin: 0 20px 0 20px;
+  color: #c7c7c7;
+}
+
+#photo {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/dalton-menezes.png');
+  background-repeat: no-repeat;
+  background-position: center bottom 176px;
+}
