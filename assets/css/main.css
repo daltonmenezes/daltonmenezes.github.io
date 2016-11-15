@@ -68,11 +68,36 @@ a:hover {
   color: #85a98a;
 }
 
-#photo {
-  position: fixed;
+footer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
   width: 100%;
-  height: 100%;
+  bottom: 0;
+  position: fixed;
+}
+
+#photo {
+  width: 311px;
+  height: 312px;
   background-image: url('../img/dalton-menezes.png');
   background-repeat: no-repeat;
-  background-position: center bottom 176px;
+}
+
+#top-quotes {
+  margin-left: -80px;
+  width: 65px;
+  height: 45px;
+  background-image: url('../img/top-quotes.png');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+#bottom-quotes {
+  margin: 150px 0 0 330px;
+  width: 65px;
+  height: 45px;
+  background-image: url('../img/bottom-quotes.png');
+  background-repeat: no-repeat;
+  background-position: 0 -150px;
 }
