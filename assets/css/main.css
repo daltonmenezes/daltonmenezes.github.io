@@ -40,10 +40,12 @@ a {
   text-decoration: none;
   color: #909090;
   transition: color 0.5s;
+  animation: quote-finish-transition 0.8s ease;
 }
 
 a:hover {
   transition: color 0.5s;
+  animation: quote-start-transition 0.8s ease;
 }
 
 .separator {
