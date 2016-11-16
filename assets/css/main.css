@@ -167,10 +167,26 @@ footer {
   overflow-y: auto;
 }
 
+#about-text {
+  font-size: 1.4em;
+}
+
+#about-text h2 {
+  margin: -100px 0 20px 0;
+}
+
+#about-text .fa {
+  margin: 0;
+  vertical-align: -3px;
+  position: relative;
+  font-size: 1em !important;
+  color: #7a4b4b;
+}
+
 #skills {
   min-width: 100%;
   margin: 0 auto;
-  padding-bottom: 20px;
+  padding: 20px 0 20px 0;
 }
 
 .skill-tag {
