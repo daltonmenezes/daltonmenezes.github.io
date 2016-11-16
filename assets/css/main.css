@@ -93,6 +93,12 @@ footer {
    to {opacity: 1}
 }
 
+@keyframes float{
+    from {-webkit-transform:translate(0, 0px); -moz-transform:translate(0, 0px);}
+    50% {-webkit-transform:translate(0, -15px); -moz-transform:translate(0, -15px);}
+    to {-webkit-transform: translate(0, -0px); -moz-transform: translate(0, -0px);}
+}
+
 #top-quotes {
   margin-left: -80px;
   width: 65px;
@@ -100,6 +106,7 @@ footer {
   background-image: url('../img/top-quotes.png');
   background-repeat: no-repeat;
   background-position: 0 0;
+  animation: float 2s infinite;
 }
 
 #bottom-quotes {
@@ -109,4 +116,5 @@ footer {
   background-image: url('../img/bottom-quotes.png');
   background-repeat: no-repeat;
   background-position: 0 -200px;
+  animation: float 2s infinite;
 }
