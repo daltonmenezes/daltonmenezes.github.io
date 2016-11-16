@@ -188,6 +188,15 @@ footer {
   color: #7a4b4b;
 }
 
+@keyframes skills-start-transition{
+  0% {border-color: #5c6c9b #5c6c9b #5c6c9b #5c6c9b;}
+  20% {border-color: #85a98a #5c6c9b #5c6c9b #5c6c9b;}
+  40% {border-color: #85a98a #94677d #85a98a #85a98a;}
+  60% {border-color: #94677d #94677d #7a4b4b #94677d;}
+  80% {border-color: #4b6e7a #4b6e7a #4b6e7a #94677d;}
+  100% {border-color: #5c6c9b #5c6c9b #5c6c9b #5c6c9b;}
+}
+
 #skills {
   min-width: 100%;
   margin: 0 auto;
