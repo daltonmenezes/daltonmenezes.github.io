@@ -14,7 +14,7 @@ about.addEventListener('click', function() {
 
 for (i = 0; i < close.length; i++) {
     close[i].addEventListener('click', function(event) {
-      _window = event.toElement.offsetParent;
+      _window = event.target.offsetParent;
       _window.style.animation = 'quote-finish-transition 0.8s ease';
       _window.style.visibility = 'hidden';
     });
