@@ -165,3 +165,17 @@ footer {
   position: absolute;
   z-index: 100;
 }
+
+#skills {
+  min-width: 100%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.skill-tag {
+  display: inline-block;
+  font-size: 2em;
+  padding: 10px;
+  margin: 4px;
+  border: 2px solid #5c6c9b;
+}
