@@ -167,6 +167,10 @@ footer {
   overflow-y: auto;
 }
 
+#modal-about .close .fa:hover {
+  color: #5c6c9b;
+}
+
 #about-text {
   font-size: 1.4em;
   margin: 0 20px 0 20px;
