@@ -48,25 +48,29 @@ a:hover {
   animation: quote-start-transition 0.8s ease;
 }
 
+a:focus {
+  outline: none;
+}
+
 .separator {
   display: inline-flex;
   margin: 0 20px 0 20px;
   color: #c7c7c7;
 }
 
-#blog:hover {
+#blog:hover, #blog:focus, #blog:active {
   color: #4b6e7a;
 }
 
-#projects:hover {
+#projects:hover, #projects:focus, #projects:active {
   color: #94677d;
 }
 
-#about:hover {
+#about:hover, #about:focus, #about:active {
   color: #5c6c9b;
 }
 
-#contact:hover {
+#contact:hover, #contact:focus, #contact:active {
   color: #85a98a;
 }
 
