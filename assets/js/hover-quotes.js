@@ -8,8 +8,8 @@ var contact = document.getElementById('contact');
 blog.addEventListener('mouseover', function() {
   topQuotes.style.animation = 'float 2s infinite, quote-start-transition 0.8s ease';
   bottomQuotes.style.animation = 'float 2s infinite, quote-start-transition 0.8s ease';
-  topQuotes.style.backgroundPosition = '0 -50px';
-  bottomQuotes.style.backgroundPosition = '0 -150px';
+  topQuotes.style.backgroundPosition = '0 -100px';
+  bottomQuotes.style.backgroundPosition = '0 -100px';
 });
 
 blog.addEventListener('mouseout', function() {
@@ -22,8 +22,8 @@ blog.addEventListener('mouseout', function() {
 projects.addEventListener('mouseover', function() {
   topQuotes.style.animation = 'float 2s infinite, quote-start-transition 0.8s ease';
   bottomQuotes.style.animation = 'float 2s infinite, quote-start-transition 0.8s ease';
-  topQuotes.style.backgroundPosition = '0 -100px';
-  bottomQuotes.style.backgroundPosition = '0 -100px';
+  topQuotes.style.backgroundPosition = '0 -50px';
+  bottomQuotes.style.backgroundPosition = '0 -150px';
 });
 
 projects.addEventListener('mouseout', function() {
