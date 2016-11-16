@@ -90,7 +90,7 @@ footer {
   height: 45px;
   background-image: url('../img/top-quotes.png');
   background-repeat: no-repeat;
-  background-position: 0 -50px;
+  background-position: 0 0;
 }
 
 #bottom-quotes {
@@ -99,5 +99,5 @@ footer {
   height: 45px;
   background-image: url('../img/bottom-quotes.png');
   background-repeat: no-repeat;
-  background-position: 0 -100px;
+  background-position: 0 -200px;
 }
