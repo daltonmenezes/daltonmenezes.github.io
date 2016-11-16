@@ -125,7 +125,7 @@ footer {
   animation: float 2s infinite;
 }
 
-#close-section {
+.close-section {
   display: flex;
   flex-flow: column;
   align-items: flex-end;
