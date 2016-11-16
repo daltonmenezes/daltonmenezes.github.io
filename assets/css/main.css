@@ -84,6 +84,15 @@ footer {
   background-repeat: no-repeat;
 }
 
+@keyframes quote-start-transition{
+  from {opacity: 0}
+   to {opacity: 1}
+}
+@keyframes quote-finish-transition{
+  from {opacity: 0}
+   to {opacity: 1}
+}
+
 #top-quotes {
   margin-left: -80px;
   width: 65px;
