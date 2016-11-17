@@ -167,6 +167,10 @@ footer {
   overflow-x: hidden;
 }
 
+#contacts {
+    margin-top:225px;
+}
+
 #modal-about .close .fa:hover {
   color: #5c6c9b;
 }
