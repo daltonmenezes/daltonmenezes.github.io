@@ -1,12 +1,12 @@
 var close = document.querySelectorAll('.close');
-var modal = document.querySelector('.modal');
+var modalContact = document.getElementById('modal-contact');
 var modalAbout = document.getElementById('modal-about');
 var modalProjects = document.getElementById('modal-projects');
 var skills = document.querySelectorAll('.skill-tag');
 
 contact.addEventListener('click', function() {
-  modal.style.visibility = 'visible';
-  modal.style.animation = 'quote-start-transition 0.5s ease';
+  modalContact.style.visibility = 'visible';
+  modalContact.style.animation = 'quote-start-transition 0.5s ease';
 });
 
 projects.addEventListener('click', function() {
