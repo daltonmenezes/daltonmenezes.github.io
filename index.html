@@ -13,7 +13,7 @@
     <meta name="author" content="Dalton Menezes">
 
     <title>Dalton Menezes</title>
-    
+
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400" rel="stylesheet">
     <link href="assets/css/main.css" rel="stylesheet">
@@ -208,5 +208,14 @@
     <script src="assets/js/hover-quotes.js"></script>
     <script src="assets/js/skillsAnimation.js"></script>
     <script src="assets/js/modal.js"></script>
+    <script>
+      var hash = window.location.hash;
+
+      switch (hash) {
+        case '#contact': openModalContactWindow(); break;
+        case '#about': openModalAboutWindow(); break;
+        case '#projects': openModalProjectsWindow(); break;
+      }
+    </script>
   </body>
 </html>
