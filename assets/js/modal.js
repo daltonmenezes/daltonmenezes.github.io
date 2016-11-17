@@ -4,20 +4,32 @@ var modalAbout = document.getElementById('modal-about');
 var modalProjects = document.getElementById('modal-projects');
 var skills = document.querySelectorAll('.skill-tag');
 
-contact.addEventListener('click', function() {
+function openModalContactWindow() {
   modalContact.style.visibility = 'visible';
   modalContact.style.animation = 'quote-start-transition 0.5s ease';
-});
+}
 
-projects.addEventListener('click', function() {
+function openModalProjectsWindow() {
   modalProjects.style.visibility = 'visible';
   modalProjects.style.animation = 'quote-start-transition 0.5s ease';
-});
+}
 
-about.addEventListener('click', function() {
+function openModalAboutWindow() {
   modalAbout.style.visibility = 'visible';
   modalAbout.style.animation = 'quote-start-transition 0.5s ease';
   animateSkills();
+}
+
+contact.addEventListener('click', function() {
+  openModalContactWindow();
+});
+
+projects.addEventListener('click', function() {
+  openModalProjectsWindow();
+});
+
+about.addEventListener('click', function() {
+  openModalAboutWindow();
 });
 
 for (i = 0; i < close.length; i++) {
