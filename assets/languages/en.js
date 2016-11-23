@@ -1,0 +1,20 @@
+en = {
+  _language: 'en',
+  english: 'ENGLISH',
+  portuguese: 'PORTUGUESE',
+  projects: 'PROJECTS',
+  about: 'ABOUT',
+  contact: 'CONTACT',
+  hi: 'Hi, I’m Dalton Menezes',
+  about_text_paragraph_one: 'I’m 27, Brazilian, born in Bahia, living in Rio de Janeiro since 2009. Designer, Web Designer and Independent Software Developer. I love open source and free software community and I contribute for it always as possible.',
+  about_text_paragraph_two: 'I’m writer and musician too. I hope to finish my works about that and show you soon. <br>Below there are some skills about myself that you can check.',
+  orb_description: 'Your friendly JavaScript languages handler. ORB turns fastly and easily your website/project to multilingual.',
+  pepper_description: 'A free and open source simple game that looks like Flappy Bird written in HTML5 and JavaScript.',
+  yout_description: 'Yout Player is the new way to watch playlists from YouTube on Desktop. No YouTube ads, simple to use, floating window. Available for free for Linux, Mac and Windows.',
+  see_all_software: 'See all software projects',
+  art_for_sale1: 'Art for sale.',
+  art_for_sale2: 'Art for sale.',
+  art_for_sale3: 'Art for sale.',
+  art_for_roberbills: 'Artwork for Roberbills band.',
+  see_all_design: 'See all design projects'
+};
