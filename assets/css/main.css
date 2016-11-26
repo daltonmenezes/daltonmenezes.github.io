@@ -263,7 +263,7 @@ h3 {
 
 .software-project {
   display: flex;
-  flex-flow: row;
+  flex-flow: row-reverse;
   flex-wrap: wrap-reverse;
   justify-content: space-around;
   margin: 20px 10px 0 10px;
