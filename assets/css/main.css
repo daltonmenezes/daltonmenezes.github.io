@@ -304,8 +304,8 @@ h3 {
 
 .design-project {
   display: flex;
-  flex-flow: row;
-  flex-wrap: wrap;
+  flex-flow: row-reverse;
+  flex-wrap: wrap-reverse;
   justify-content: space-around;
   margin: 20px 20px 0 20px;
 }
