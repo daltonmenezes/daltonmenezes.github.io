@@ -94,12 +94,11 @@
 }
 
 @media screen
-  and (max-width: 360px)
-  and (max-height: 640px)
+  and (max-width: 338px)
+  and (max-height: 600px)
   and (orientation: portrait) {
     header {
       margin-top: 15px !important;
-      position: fixed !important;
     }
 }
 
