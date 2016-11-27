@@ -98,7 +98,7 @@
   and (max-height: 600px)
   and (orientation: portrait) {
     header {
-      margin-top: 15px !important;
+      margin-top: 10px !important;
     }
 }
 
