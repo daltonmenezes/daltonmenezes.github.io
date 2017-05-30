@@ -319,8 +319,9 @@ h3 {
 }
 
 .design-item img {
-  border: 4px solid;
-  border-color: #c7c7c7;
+  border: 6px solid;
+  /*border-color: #c7c7c7;*/
+  border-color: #292929;
   box-shadow: 4px 4px 4px #191919;
 }
 .design-item img:hover {
