@@ -27,7 +27,8 @@ en = {
   art_for_sale10: 'Art for sale',
   art_for_sale11: 'Art for sale',
   art_for_sale12: 'Art for sale',
-  art_for_sale13: 'Art for sale',    
+  art_for_sale13: 'Art for sale',
+  art_for_sale_boy: 'Art for sale',    
   art_for_roberbills: 'Artwork for Roberbills band',
   see_all_books: 'See all book artworks',
   see_all_bands: 'See all band artworks'  

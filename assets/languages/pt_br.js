@@ -27,7 +27,8 @@ pt_br = {
   art_for_sale10: 'Arte à venda',
   art_for_sale11: 'Arte à venda',
   art_for_sale12: 'Arte à venda',
-  art_for_sale13: 'Arte à venda', 
+  art_for_sale13: 'Arte à venda',
+  art_for_sale_boy: 'Arte à venda', 
   art_for_roberbills: 'Arte para a banda Roberbills',
   see_all_books: 'Ver todas as artes de livros',
   see_all_bands: 'Ver todas as artes de bandas'
