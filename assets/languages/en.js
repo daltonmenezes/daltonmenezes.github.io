@@ -18,5 +18,6 @@ en = {
   art_for_sale: 'Art for sale',   
   art_for_roberbills: 'Artwork for Roberbills band',
   see_all_books: 'See all book artworks',
-  see_all_bands: 'See all band artworks'  
+  see_all_bands: 'See all band artworks',
+  area_militar_info: 'Book: Área Militar<br/>Author: Nathany Teixeira<br/>Release: 2017<br/>Buy the Book: Soon' 
 };
