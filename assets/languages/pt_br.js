@@ -1,7 +1,5 @@
 pt_br = {
   _language: 'pt_br',
-  english: 'INGLÊS',
-  portuguese: 'PORTUGUÊS',
   projects: 'PROJETOS',
   about: 'SOBRE',
   contact: 'CONTATO',

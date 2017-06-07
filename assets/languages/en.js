@@ -1,7 +1,5 @@
 en = {
   _language: 'en',
-  english: 'ENGLISH',
-  portuguese: 'PORTUGUESE',
   projects: 'PROJECTS',
   about: 'ABOUT',
   contact: 'CONTACT',
