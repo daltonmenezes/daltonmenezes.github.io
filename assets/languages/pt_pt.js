@@ -17,5 +17,6 @@ pt_pt = {
   art_for_roberbills: 'Arte para a banda Roberbills',
   see_all_books: 'Ver todas as artes de livros',
   see_all_bands: 'Ver todas as artes de bandas',
-  area_militar_info: 'Livro: Área Militar<br/>Autor: Nathany Teixeira<br/>Lançamento: 2017<br/>Compre o Livro: Em Breve'
+  area_militar_info: 'Livro: Área Militar<br/>Autor: Nathany Teixeira<br/>Lançamento: 2017<br/>Compre o Livro: Em Breve',
+  as_fases_da_lua_info: 'Livro: As Fases da Lua<br/>Autor: Cínthia Sampaio<br/>Lançamento: 2017<br/>Compre o Livro: Em Breve'
 };
