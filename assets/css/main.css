@@ -90,7 +90,7 @@ a:focus {
   color: #4b6e7a;
 }
 
-#projects:hover, #projects:focus, #projects:active {
+#software:hover, #software:focus, #software:active {
   color: #94677d;
 }
 
@@ -243,7 +243,7 @@ footer {
   border: 2px solid #5c6c9b;
 }
 
-#modal-projects .close .fa:hover {
+#modal-software .close .fa:hover {
   color: #94677d;
 }
 

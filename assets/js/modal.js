@@ -1,7 +1,7 @@
 var close = document.querySelectorAll('.close');
 var modalContact = document.getElementById('modal-contact');
 var modalAbout = document.getElementById('modal-about');
-var modalProjects = document.getElementById('modal-projects');
+var modalSoftware = document.getElementById('modal-software');
 var skills = document.querySelectorAll('.skill-tag');
 
 function openModalContactWindow() {
@@ -9,9 +9,9 @@ function openModalContactWindow() {
   modalContact.style.animation = 'quote-start-transition 0.5s ease';
 }
 
-function openModalProjectsWindow() {
-  modalProjects.style.visibility = 'visible';
-  modalProjects.style.animation = 'quote-start-transition 0.5s ease';
+function openModalSoftwareWindow() {
+  modalSoftware.style.visibility = 'visible';
+  modalSoftware.style.animation = 'quote-start-transition 0.5s ease';
 }
 
 function openModalAboutWindow() {
@@ -24,8 +24,8 @@ contact.addEventListener('click', function() {
   openModalContactWindow();
 });
 
-projects.addEventListener('click', function() {
-  openModalProjectsWindow();
+software.addEventListener('click', function() {
+  openModalSoftwareWindow();
 });
 
 about.addEventListener('click', function() {
