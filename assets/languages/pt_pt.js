@@ -1,6 +1,5 @@
 pt_pt = {
   _language: 'pt_pt',
-  projects: 'PROJETOS',
   about: 'SOBRE',
   contact: 'CONTATO',
   hi: 'Olá, sou Dalton Menezes',

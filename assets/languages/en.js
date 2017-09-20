@@ -1,6 +1,5 @@
 en = {
   _language: 'en',
-  projects: 'PROJECTS',
   about: 'ABOUT',
   contact: 'CONTACT',
   hi: 'Hi, I’m Dalton Menezes',

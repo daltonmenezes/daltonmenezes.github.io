@@ -2,6 +2,7 @@ var close = document.querySelectorAll('.close');
 var modalContact = document.getElementById('modal-contact');
 var modalAbout = document.getElementById('modal-about');
 var modalSoftware = document.getElementById('modal-software');
+var modalDesign = document.getElementById('modal-design');
 var skills = document.querySelectorAll('.skill-tag');
 
 function openModalContactWindow() {
@@ -12,6 +13,11 @@ function openModalContactWindow() {
 function openModalSoftwareWindow() {
   modalSoftware.style.visibility = 'visible';
   modalSoftware.style.animation = 'quote-start-transition 0.5s ease';
+}
+
+function openModalDesignWindow() {
+  modalDesign.style.visibility = 'visible';
+  modalDesign.style.animation = 'quote-start-transition 0.5s ease';
 }
 
 function openModalAboutWindow() {
@@ -26,6 +32,10 @@ contact.addEventListener('click', function() {
 
 software.addEventListener('click', function() {
   openModalSoftwareWindow();
+});
+
+design.addEventListener('click', function() {
+  openModalDesignWindow();
 });
 
 about.addEventListener('click', function() {
