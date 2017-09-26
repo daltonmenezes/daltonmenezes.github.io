@@ -18,5 +18,6 @@ pt_pt = {
   see_all_bands: 'Ver todas as artes de bandas',
   area_militar_info: 'Livro: Área Militar<br/>Autora: Nathany Teixeira<br/>Lançamento: 2017<br/>Compre o Livro: Em Breve',
   as_fases_da_lua_info: 'Livro: As Fases da Lua<br/>Autora: Cínthia Sampaio<br/>Lançamento: 2017<br/>Compre o Livro: Em Breve',
-  city_in_the_blue_mountains_info: 'Livro: The City in the Blue Mountains<br/>Autora: Josephine Miller<br/>Lançamento: 2017<br/>Compre o Livro: Em Breve'
+  city_in_the_blue_mountains_info: 'Livro: The City in the Blue Mountains<br/>Autora: Josephine Miller<br/>Lançamento: 2017<br/>Compre o Livro: Em Breve',
+  my_altered_self_info: 'Livro: My Altered Self<br/>Autora: Sue Liston<br/>Lançamento: 2017<br/>Compre o Livro: Em Breve'
 };
