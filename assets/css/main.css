@@ -4,6 +4,9 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   color: #909090;
   background-color: #e6e6e6;
+  background-image: url('../img/background.png');
+  background-attachment: fixed;
+  background-size: cover;
   cursor: default;
 }
 
@@ -91,6 +94,10 @@ a:focus {
 }
 
 #software:hover, #software:focus, #software:active {
+  color: #8B579C;
+}
+
+#design:hover, #design:focus, #design:active {
   color: #94677d;
 }
 
