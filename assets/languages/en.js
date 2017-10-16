@@ -16,7 +16,7 @@ en = {
   art_for_roberbills: 'Artwork for Roberbills band',
   see_all_books: 'See all book artworks',
   see_all_bands: 'See all band artworks',
-  area_militar_info: 'Book: Área Militar<br/>Author: Nathany Teixeira<br/>Release: 2017<br/>Buy the Book: Soon',
+  area_militar_info: 'Book: Área Militar<br/>Author: Nathany Teixeira<br/>Release: 2017<br/><a href="http://a.co/7NiBzyV" target="_blank">Buy the Book</a>',
   as_fases_da_lua_info: 'Book: As Fases da Lua<br/>Author: Cínthia Sampaio<br/>Release: 2017<br/><a href="http://a.co/4Qlq76j" target="_blank">Buy the Book</a>',
   city_in_the_blue_mountains_info: 'Book: The City in the Blue Mountains<br/>Author: Josephine Miller<br/>Release: 2017<br/>Buy the Book: Soon',
   my_altered_self_info: 'Book: My Altered Self<br/>Author: Sue Liston<br/>Release: 2017<br/><a href="http://a.co/7ZGsXvu" target="_blank">Buy the Book</a>',
