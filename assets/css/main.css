@@ -4,9 +4,6 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   color: #909090;
   background-color: #e6e6e6;
-  background-image: url('../img/background.png');
-  background-attachment: fixed;
-  background-size: cover;
   cursor: default;
 }
 
