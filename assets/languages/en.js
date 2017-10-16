@@ -1,5 +1,7 @@
 en = {
   _language: 'en',
+  en_label: '<span style="color:#a9dfb0">ENGLISH</span>',
+  pt_br_label: 'PORTUGUÊS',
   about: 'ABOUT',
   contact: 'CONTACT',
   hi: 'Hi, I’m Dalton Menezes',

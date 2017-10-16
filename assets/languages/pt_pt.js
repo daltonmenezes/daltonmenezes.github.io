@@ -1,5 +1,7 @@
 pt_pt = {
   _language: 'pt_pt',
+  en_label: 'ENGLISH',
+  pt_br_label: '<span style="color:#a9dfb0">PORTUGUÊS</span>',
   about: 'SOBRE',
   contact: 'CONTATO',
   hi: 'Olá, sou Dalton Menezes',
