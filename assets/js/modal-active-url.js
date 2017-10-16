@@ -23,3 +23,10 @@ window.addEventListener("hashchange", function() {
   openModal();
 }, false);
 
+window.addEventListener("keydown", function(keyPressed) {
+  if (keyPressed.keyCode == 27) {
+      window.location.hash = "#";
+      clearModal();
+  }
+}, false);
+
