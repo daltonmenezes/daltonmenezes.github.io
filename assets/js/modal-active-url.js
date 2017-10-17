@@ -1,5 +1,6 @@
 function clearModal() {
   var modalList = document.querySelectorAll('.modal');
+  
   for (i = 0; i < modalList.length; i++) {
       modalList[i].style.animation = 'quote-finish-transition 0.8s ease';
       modalList[i].style.visibility = 'hidden';
@@ -8,6 +9,7 @@ function clearModal() {
 
 function openModal() {
   var hash = window.location.hash;
+
   switch (hash) {
     case '#contact': openModalContactWindow(); break;
     case '#about': openModalAboutWindow(); break;
@@ -15,8 +17,6 @@ function openModal() {
     case '#design': openModalDesignWindow(); break;
   }
 }
-
-openModal();
 
 window.addEventListener("hashchange", function() {
   clearModal();
@@ -30,3 +30,4 @@ window.addEventListener("keydown", function(keyPressed) {
   }
 }, false);
 
+openModal();
