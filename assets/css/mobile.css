@@ -154,3 +154,35 @@ and (orientation: portrait) {
       margin: 165px 0 0 245px !important;
     }
 }
+
+@media screen
+and (max-width: 320px)
+and (max-height: 480px)
+and (orientation: portrait) {
+  header {
+    margin-top: 15px !important;
+    position: fixed !important;
+  }
+
+  header h1 {
+    font-size: 1.20em;
+  }
+
+  header ul {
+    font-size: 0.65em;
+    margin-top: 6px !important;
+  }
+  
+  .see-all {
+    font-size: 1em !important;
+  }
+
+  #contacts {
+    margin-top: 20px !important;
+  }
+
+  #photo {
+    position: absolute;
+    margin-top: -285px !important;
+  }
+}
