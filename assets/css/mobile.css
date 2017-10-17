@@ -102,6 +102,22 @@
       position: fixed !important;
     }
 
+    header h1 {
+      font-size: 1.40em;
+    }
+
+    header ul {
+      font-size: 0.85em;
+    }
+    
+    .see-all {
+      font-size: 1em !important;
+    }
+
+    #contacts {
+      margin-top: 60px !important;
+    }
+
     #top-quotes {
       margin-left: 0 !important;
       background-size: cover;
