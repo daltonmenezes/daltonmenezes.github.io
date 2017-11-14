@@ -23,5 +23,6 @@ en = {
   city_in_the_blue_mountains_info: 'Book: The City in the Blue Mountains<br/>Author: Josephine Miller<br/>Release: 2017<br/>Buy the Book: Soon',
   my_altered_self_info: 'Book: My Altered Self<br/>Author: Sue Liston<br/>Release: 2017<br/><a href="http://a.co/7ZGsXvu" target="_blank">Buy the Book</a>',
   interstice_info: 'Book: Interstice - Book II from Shadow Series<br/>Author: J.M Cleminson<br/>Release: 2017<br/><a href="https://goo.gl/7DqvCF" target="_blank">Buy the Book</a>',
-  recipes_description: 'The main recipes repository for UNI. You can create your own or use one of the available recipes.'
+  recipes_description: 'The main recipes repository for UNI. You can create your own or use one of the available recipes.',
+  what_type_is_description: 'A simple type checking library for Node.js.'
 };
