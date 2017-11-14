@@ -24,5 +24,6 @@ pt_pt = {
   my_altered_self_info: 'Livro: My Altered Self<br/>Autora: Sue Liston<br/>Lançamento: 2017<br/><a href="http://a.co/7ZGsXvu" target="_blank">Compre o Livro</a>',
   interstice_info: 'Livro: Interstice - Livro II da série Shadow<br/>Autora: J.M Cleminson<br/>Lançamento: 2017<br/><a href="https://goo.gl/7DqvCF" target="_blank">Compre o Livro</a>',
   recipes_description: 'O repositório principal de receitas para UNI. Você pode criar suas prórias receitas ou usar uma das disponíveis.',
-  what_type_is_description: 'Uma biblioteca simples de checagem de tipos para Node.js.'
+  what_type_is_description: 'Uma biblioteca simples de checagem de tipos para Node.js.',
+  odalisca_info: 'Livro: A Odalisca Em Mim<br/>Autora: Luna Maia<br/>Lançamento: 2017<br/><a href="http://a.co/iNQipLe" target="_blank">Compre o Livro</a>'
 };

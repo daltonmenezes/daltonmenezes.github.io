@@ -24,5 +24,6 @@ en = {
   my_altered_self_info: 'Book: My Altered Self<br/>Author: Sue Liston<br/>Release: 2017<br/><a href="http://a.co/7ZGsXvu" target="_blank">Buy the Book</a>',
   interstice_info: 'Book: Interstice - Book II from Shadow Series<br/>Author: J.M Cleminson<br/>Release: 2017<br/><a href="https://goo.gl/7DqvCF" target="_blank">Buy the Book</a>',
   recipes_description: 'The main recipes repository for UNI. You can create your own or use one of the available recipes.',
-  what_type_is_description: 'A simple type checking library for Node.js.'
+  what_type_is_description: 'A simple type checking library for Node.js.',
+  odalisca_info: 'Book: A Odalisca Em Mim<br/>Author: Luna Maia<br/>Release: 2017<br/><a href="http://a.co/iNQipLe" target="_blank">Buy the Book</a>'
 };
