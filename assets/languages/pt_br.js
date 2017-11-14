@@ -22,5 +22,6 @@ pt_br = {
   as_fases_da_lua_info: 'Livro: As Fases da Lua<br/>Autora: Cínthia Sampaio<br/>Lançamento: 2017<br/><a href="http://a.co/4Qlq76j" target="_blank">Compre o Livro</a>',
   city_in_the_blue_mountains_info: 'Livro: The City in the Blue Mountains<br/>Autora: Josephine Miller<br/>Lançamento: 2017<br/>Compre o Livro: Em Breve',
   my_altered_self_info: 'Livro: My Altered Self<br/>Autora: Sue Liston<br/>Lançamento: 2017<br/><a href="http://a.co/7ZGsXvu" target="_blank">Compre o Livro</a>',
-  interstice_info: 'Livro: Interstice - Livro II da série Shadow<br/>Autora: J.M Cleminson<br/>Lançamento: 2017<br/><a href="https://goo.gl/7DqvCF" target="_blank">Compre o Livro</a>'
+  interstice_info: 'Livro: Interstice - Livro II da série Shadow<br/>Autora: J.M Cleminson<br/>Lançamento: 2017<br/><a href="https://goo.gl/7DqvCF" target="_blank">Compre o Livro</a>',
+  recipes_description: 'O repositório principal de receitas para UNI. Você pode criar suas prórias receitas ou usar uma das disponíveis.'
 };
