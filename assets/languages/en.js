@@ -20,7 +20,7 @@ en = {
   see_all_bands: 'See all band artworks',
   area_militar_info: 'Book: Área Militar<br/>Author: Nathany Teixeira<br/>Release: 2017<br/><a href="http://a.co/7NiBzyV" target="_blank">Buy the Book</a>',
   as_fases_da_lua_info: 'Book: As Fases da Lua<br/>Author: Cínthia Sampaio<br/>Release: 2017<br/><a href="http://a.co/4Qlq76j" target="_blank">Buy the Book</a>',
-  city_in_the_blue_mountains_info: 'Book: The City in the Blue Mountains<br/>Author: Josephine Miller<br/>Release: 2017<br/>Buy the Book: Soon',
+  city_in_the_blue_mountains_info: 'Book: The City in the Blue Mountains<br/>Author: Josephine Miller<br/>Release: 2017<br/><a href="http://a.co/3CBoaml" target="_blank">Buy the Book</a>',
   my_altered_self_info: 'Book: My Altered Self<br/>Author: Sue Liston<br/>Release: 2017<br/><a href="http://a.co/7ZGsXvu" target="_blank">Buy the Book</a>',
   interstice_info: 'Book: Interstice - Book II from Shadow Series<br/>Author: J.M Cleminson<br/>Release: 2017<br/><a href="https://goo.gl/7DqvCF" target="_blank">Buy the Book</a>',
   recipes_description: 'The main recipes repository for UNI. You can create your own or use one of the available recipes.',
