@@ -26,5 +26,6 @@ en = {
   recipes_description: 'The main recipes repository for UNI. You can create your own or use one of the available recipes.',
   what_type_is_description: 'A simple type checking library for Node.js.',
   odalisca_info: 'Book: A Odalisca Em Mim<br/>Author: Luna Maia<br/>Release: 2017<br/><a href="http://a.co/iNQipLe" target="_blank">Buy the Book</a>',
-  nine_nine_notifications_description: 'Unofficial 99designs browser extension to get desktop notifications with the number of unread notifications with specific sound and title bar of 99d pages open updated with these numbers.'
+  nine_nine_notifications_description: 'Unofficial 99designs browser extension to get desktop notifications with the number of unread notifications with specific sound and title bar of 99d pages open updated with these numbers.',
+  netflix_list_exporter_description: `An Extension to export your 'My list' from Netflix to Clipboard area and share with your friends.`
 };

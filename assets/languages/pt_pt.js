@@ -26,5 +26,6 @@ pt_pt = {
   recipes_description: 'O repositório principal de receitas para UNI. Você pode criar suas prórias receitas ou usar uma das disponíveis.',
   what_type_is_description: 'Uma biblioteca simples de checagem de tipos para Node.js.',
   odalisca_info: 'Livro: A Odalisca Em Mim<br/>Autora: Luna Maia<br/>Lançamento: 2017<br/><a href="http://a.co/iNQipLe" target="_blank">Compre o Livro</a>',
-  nine_nine_notifications_description: 'Extensão 99designs não oficial para navegadores para receber notificações na área de trabalho com o número de notificações não lidas com um som específico e páginas do 99d atualizadas com esses números.'
+  nine_nine_notifications_description: 'Extensão 99designs não oficial para navegadores para receber notificações na área de trabalho com o número de notificações não lidas com um som específico e páginas do 99d atualizadas com esses números.',
+  netflix_list_exporter_description: `Uma extensão para exportar a 'Minha lista' da Netflix para a área de transferência e compartilhar com seus amigos.`
 };
