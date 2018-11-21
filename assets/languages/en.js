@@ -5,7 +5,7 @@ en = {
   about: 'ABOUT',
   contact: 'CONTACT',
   hi: 'Hi, I’m Dalton Menezes',
-  about_text_paragraph_one: `I’m ${age}, Brazilian, born in Bahia, living in Rio de Janeiro since 2009. Designer, Web Designer and Independent Software Developer. I love open source and free software community and I contribute for it always as possible.`,
+  about_text_paragraph_one: `I’m ${age}, Brazilian, born and living in Bahia. Software Engineer, Digital Artist and Writer. I love open source and free software community and I contribute for it always as possible.`,
   about_text_paragraph_two: '<br>Check out some of my skills:',
   uni_description: 'A universal and optimized interface for handle package managers on Linux distributions. UNI is an abstraction layer that allows you to manage different package managers using the same UNI commands regardless of the distribution you are using and automates repetitive tasks on them.',
   orb_description: 'Your friendly JavaScript languages handler. ORB turns fastly and easily your website/project to multilingual.',

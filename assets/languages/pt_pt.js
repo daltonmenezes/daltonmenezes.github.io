@@ -5,7 +5,7 @@ pt_pt = {
   about: 'SOBRE',
   contact: 'CONTATO',
   hi: 'Olá, sou Dalton Menezes',
-  about_text_paragraph_one: `Tenho ${age} anos, sou Brasileiro, nasci na Bahia e vivo no Rio de Janeiro desde 2009. Sou Designer, Web Designer e Desenvolvedor de Software Independente. Amo a comunidade de software livre e open source e contribuo com ela sempre que posso.`,
+  about_text_paragraph_one: `Tenho ${age} anos, sou Brasileiro, nasci e vivo na Bahia. Sou Desenvolvedor de software, Artista Digital e Escritor. Amo a comunidade de software livre e open source e contribuo com ela sempre que posso.`,
   about_text_paragraph_two: '<br>Confira algumas das minhas habilidades:<br>',
   uni_description: 'Uma interface universal e otimizada para manipular gerenciadores de pacotes em distribuições Linux. UNI é uma camada de abstração que lhe permite gerenciar gerenciadores de pacotes diferentes usando os mesmos comandos UNI independente da distribuição que você esteja usando e automatiza as tarefas repetitivas deles.',
   orb_description: 'Seu amigável manipulador JavaScript de idiomas. O ORB transforma rapida e facilmente o seu website/projeto em multilíngue.',
