@@ -242,6 +242,12 @@ footer {
   height: 150px;
 }
 
+#supporters-section img {
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+}
+
 
 #about-text {
   font-size: 1.4em;
