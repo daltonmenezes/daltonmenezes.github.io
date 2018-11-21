@@ -40,5 +40,6 @@ en = {
   platinum_supporters: 'PLATINUM SUPPORTERS',
   gold_supporters: 'GOLD SUPPORTERS',
   silver_supporters: 'SILVER SUPPORTERS',
-  bronze_supporters: 'BRONZE SUPPORTERS'
+  bronze_supporters: 'BRONZE SUPPORTERS',
+  hyper_init_description: 'The ultimate and most complete extension to initialize commands before and after Hyper terminal starts.'
 };

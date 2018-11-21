@@ -40,5 +40,6 @@ pt_br = {
   platinum_supporters: 'COLABORADORES PLATINA',
   gold_supporters: 'COLABORADORES OURO',
   silver_supporters: 'COLABORADORES PRATA',
-  bronze_supporters: 'COLABORADORES BRONZE'
+  bronze_supporters: 'COLABORADORES BRONZE',
+  hyper_init_description: 'A mais completa extensão para inicializar comandos antes e depois da inicialização do terminal Hyper.'
 };
