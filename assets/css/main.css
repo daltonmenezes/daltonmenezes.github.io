@@ -215,6 +215,13 @@ footer {
   color: #85a98a;
 }
 
+#modal-supporters h2 {
+  font-size: 1.56em;
+  font-weight: 300;
+  margin: 20px 20px;
+  letter-spacing: 0.2em;
+}
+
 #modal-supporters a {
   color: #85a98a;
 }
