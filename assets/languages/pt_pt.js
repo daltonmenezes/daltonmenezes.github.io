@@ -27,7 +27,7 @@ pt_pt = {
   what_type_is_description: 'Uma biblioteca simples de checagem de tipos para Node.js.',
   odalisca_info: 'Livro: A Odalisca Em Mim<br/>Autora: Cínthia Sampaio<br/>Lançamento: 2017<br/><a href="http://a.co/d/1t7ifTk" target="_blank">Compre o Livro</a>',
   nine_nine_notifications_description: 'Extensão 99designs não oficial para navegadores para receber notificações na área de trabalho com o número de notificações não lidas com um som específico e páginas do 99d atualizadas com esses números.',
-  netflix_list_exporter_description: `Uma extensão para exportar a 'Minha lista' da Netflix para a área de transferência e compartilhar com seus amigos.`,
+  netflix_list_exporter_description: `Uma extensão para exportar as suas listas da Netflix para a área de transferência e compartilhar com seus amigos.`,
   supporters: 'COLABORADORES',
   thanks_supporters: `
     Eu quero agradecer a cada um que acredita no meu trabalho e está me apoiando.<br /> 

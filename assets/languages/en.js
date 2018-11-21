@@ -27,7 +27,7 @@ en = {
   what_type_is_description: 'A simple type checking library for Node.js.',
   odalisca_info: 'Book: A Odalisca Em Mim<br/>Author: Cínthia Sampaio<br/>Release: 2017<br/><a href="http://a.co/d/1t7ifTk" target="_blank">Buy the Book</a>',
   nine_nine_notifications_description: 'Unofficial 99designs browser extension to get desktop notifications with the number of unread notifications with specific sound and title bar of 99d pages open updated with these numbers.',
-  netflix_list_exporter_description: `An Extension to export your 'My list' from Netflix to Clipboard area and share with your friends.`,
+  netflix_list_exporter_description: `An Extension to export your lists from Netflix to Clipboard area and share with your friends.`,
   supporters: 'SUPPORTERS',
   thanks_supporters: `
     I would like to thank each of you who believe in my work and are supporting me.<br /> 
