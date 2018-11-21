@@ -86,6 +86,10 @@ a:focus {
   color: #c7c7c7;
 }
 
+#supporters:hover, #supporters:focus, #supporters:active {
+  color: #85a98a;
+}
+
 #blog:hover, #blog:focus, #blog:active {
   color: #4b6e7a;
 }
@@ -200,12 +204,44 @@ footer {
 }
 
 #contacts {
-    margin-top:225px;
+  margin-top:225px;
 }
 
 #modal-about .close .fa:hover {
   color: #5c6c9b;
 }
+
+#modal-supporters .close .fa:hover {
+  color: #85a98a;
+}
+
+#modal-supporters a {
+  color: #85a98a;
+}
+
+#modal-supporters a:hover {
+  color: #078819;
+}
+
+#modal-supporters p {
+  font-size: 1.4em;
+  font-weight: 300;
+  margin: 10px 20px 0 0;
+}
+
+#modal-supporters img {
+  margin: 10px 0;
+}
+
+#sponsors-section {
+  margin-top: 20px;
+}
+
+#sponsors-section #platinum-sponsors img {
+  width: 150px;
+  height: 150px;
+}
+
 
 #about-text {
   font-size: 1.4em;

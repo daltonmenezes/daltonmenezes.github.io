@@ -1,9 +1,15 @@
 var close = document.querySelectorAll('.close');
+var modalSupporters = document.getElementById('modal-supporters');
 var modalContact = document.getElementById('modal-contact');
 var modalAbout = document.getElementById('modal-about');
 var modalSoftware = document.getElementById('modal-software');
 var modalDesign = document.getElementById('modal-design');
 var skills = document.querySelectorAll('.skill-tag');
+
+function openModalSupportersWindow() {
+  modalSupporters.style.visibility = 'visible';
+  modalSupporters.style.animation = 'quote-start-transition 0.5s ease';
+}
 
 function openModalContactWindow() {
   modalContact.style.visibility = 'visible';
@@ -25,6 +31,10 @@ function openModalAboutWindow() {
   modalAbout.style.animation = 'quote-start-transition 0.5s ease';
   animateSkills();
 }
+
+supporters.addEventListener('click', function() {
+  openModalSupportersWindow();
+})
 
 contact.addEventListener('click', function() {
   openModalContactWindow();

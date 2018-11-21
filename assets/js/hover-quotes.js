@@ -6,6 +6,7 @@ var software = document.getElementById('software');
 var design = document.getElementById('design');
 var about = document.getElementById('about');
 var contact = document.getElementById('contact');
+var supporters = document.getElementById('supporters');
 
 blog.addEventListener('mouseover', function() {
   topQuotes.style.animation = 'float 2s infinite, quote-start-transition 0.8s ease';
@@ -80,6 +81,22 @@ contact.addEventListener('mouseover', function() {
 });
 
 contact.addEventListener('mouseout', function() {
+  topQuotes.style.animation = 'float 2s infinite, quote-finish-transition 0.8s ease';
+  bottomQuotes.style.animation = 'float 2s infinite, quote-finish-transition 0.8s ease';
+  topQuotes.style.backgroundPosition = '0 0';
+  bottomQuotes.style.backgroundPosition = '0 -200px';
+  photo.style.backgroundPosition = '0 0';
+});
+
+supporters.addEventListener('mouseover', function() {
+  topQuotes.style.animation = 'float 2s infinite, quote-start-transition 0.8s ease';
+  bottomQuotes.style.animation = 'float 2s infinite, quote-start-transition 0.8s ease';
+  topQuotes.style.backgroundPosition = '0 -200px';
+  bottomQuotes.style.backgroundPosition = '0 0';
+  photo.style.backgroundPosition = '-930px 0';
+});
+
+supporters.addEventListener('mouseout', function() {
   topQuotes.style.animation = 'float 2s infinite, quote-finish-transition 0.8s ease';
   bottomQuotes.style.animation = 'float 2s infinite, quote-finish-transition 0.8s ease';
   topQuotes.style.backgroundPosition = '0 0';

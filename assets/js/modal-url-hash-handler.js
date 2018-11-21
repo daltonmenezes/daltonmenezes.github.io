@@ -11,6 +11,7 @@ function openModal() {
   var hash = window.location.hash;
 
   switch (hash) {
+    case '#supporters': openModalSupportersWindow(); break;
     case '#contact': openModalContactWindow(); break;
     case '#about': openModalAboutWindow(); break;
     case '#software': openModalSoftwareWindow(); break;

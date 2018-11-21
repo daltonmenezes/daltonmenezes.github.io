@@ -27,5 +27,18 @@ pt_pt = {
   what_type_is_description: 'Uma biblioteca simples de checagem de tipos para Node.js.',
   odalisca_info: 'Livro: A Odalisca Em Mim<br/>Autora: Luna Maia<br/>Lançamento: 2017<br/><a href="http://a.co/iNQipLe" target="_blank">Compre o Livro</a>',
   nine_nine_notifications_description: 'Extensão 99designs não oficial para navegadores para receber notificações na área de trabalho com o número de notificações não lidas com um som específico e páginas do 99d atualizadas com esses números.',
-  netflix_list_exporter_description: `Uma extensão para exportar a 'Minha lista' da Netflix para a área de transferência e compartilhar com seus amigos.`
+  netflix_list_exporter_description: `Uma extensão para exportar a 'Minha lista' da Netflix para a área de transferência e compartilhar com seus amigos.`,
+  supporters: 'COLABORADORES',
+  thanks_supporters: `
+    Eu quero agradecer a cada um que acredita no meu trabalho e está me apoiando.<br /> 
+    Se você ainda não é um colaborador, por favor veja a minha página no <a href="https://www.patreon.com/daltonmenezes" target="_blank">Patreon</a> ou <a href="https://www.padrim.com.br/daltonmenezes" target="_blank">Padrim</a> para ver os benefícios.
+  `,
+  platinum_sponsors: 'FINANCIADORES PLATINA',
+  gold_sponsors: 'FINANCIADORES OURO',
+  silver_sponsors: 'FINANCIADORES PRATA',
+  bronze_sponsors: 'FINANCIADORES BRONZE',
+  platinum_supporters: 'COLABORADORES PLATINA',
+  gold_supporters: 'COLABORADORES OURO',
+  silver_supporters: 'COLABORADORES PRATA',
+  bronze_supporters: 'COLABORADORES BRONZE'
 };
