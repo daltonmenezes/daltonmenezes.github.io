@@ -9,7 +9,8 @@ var skills = document.querySelectorAll('.skill-tag');
 function openModalSupportersWindow() {
   var supportersURL = [
     "https://i.imgur.com/ppGFqSB.png",
-    "assets/img/supporters/gabi_pimenta.jpeg"
+    "assets/img/supporters/gabi_pimenta.jpeg",
+    "assets/img/supporters/isa.jpg"
   ]
   
   loadImages(supportersURL, '.supporters-img')
