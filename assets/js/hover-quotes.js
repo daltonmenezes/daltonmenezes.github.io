@@ -1,4 +1,4 @@
-var photo = document.querySelector('.photo');
+var photo = Array.from(document.querySelectorAll('.photo'));
 var topQuotes = document.getElementById('top-quotes');
 var bottomQuotes = document.getElementById('bottom-quotes');
 var blog = document.getElementById('blog');
@@ -13,7 +13,7 @@ blog.addEventListener('mouseover', function() {
   bottomQuotes.style.animation = 'float 2s infinite, quote-start-transition 0.8s ease';
   topQuotes.style.backgroundPosition = '0 -100px';
   bottomQuotes.style.backgroundPosition = '0 -100px';
-  photo.style.backgroundPosition = '-620px 0';
+  photo.map(avatar => avatar.style.backgroundPosition = '-620px 0');
 });
 
 blog.addEventListener('mouseout', function() {
@@ -21,7 +21,7 @@ blog.addEventListener('mouseout', function() {
   bottomQuotes.style.animation = 'float 2s infinite, quote-finish-transition 0.8s ease';
   topQuotes.style.backgroundPosition = '0 0';
   bottomQuotes.style.backgroundPosition = '0 -200px';
-  photo.style.backgroundPosition = '0 0';
+  photo.map(avatar => avatar.style.backgroundPosition = '0 0');
 });
 
 software.addEventListener('mouseover', function() {
@@ -29,7 +29,7 @@ software.addEventListener('mouseover', function() {
   bottomQuotes.style.animation = 'float 2s infinite, quote-start-transition 0.8s ease';
   topQuotes.style.backgroundPosition = '0 -250px';
   bottomQuotes.style.backgroundPosition = '0 -250px';
-  photo.style.backgroundPosition = '-1550px 0';
+  photo.map(avatar => avatar.style.backgroundPosition = '-1550px 0');
 });
 
 software.addEventListener('mouseout', function() {
@@ -37,7 +37,7 @@ software.addEventListener('mouseout', function() {
   bottomQuotes.style.animation = 'float 2s infinite, quote-finish-transition 0.8s ease';
   topQuotes.style.backgroundPosition = '0 0';
   bottomQuotes.style.backgroundPosition = '0 -200px';
-  photo.style.backgroundPosition = '0 0';
+  photo.map(avatar => avatar.style.backgroundPosition = '0 0');
 });
 
 design.addEventListener('mouseover', function() {
@@ -45,7 +45,7 @@ design.addEventListener('mouseover', function() {
   bottomQuotes.style.animation = 'float 2s infinite, quote-start-transition 0.8s ease';
   topQuotes.style.backgroundPosition = '0 -50px';
   bottomQuotes.style.backgroundPosition = '0 -150px';
-  photo.style.backgroundPosition = '-310px 0';
+  photo.map(avatar => avatar.style.backgroundPosition = '-310px 0');
 });
 
 design.addEventListener('mouseout', function() {
@@ -53,7 +53,7 @@ design.addEventListener('mouseout', function() {
   bottomQuotes.style.animation = 'float 2s infinite, quote-finish-transition 0.8s ease';
   topQuotes.style.backgroundPosition = '0 0';
   bottomQuotes.style.backgroundPosition = '0 -200px';
-  photo.style.backgroundPosition = '0 0';
+  photo.map(avatar => avatar.style.backgroundPosition = '0 0');
 });
 
 about.addEventListener('mouseover', function() {
@@ -61,7 +61,7 @@ about.addEventListener('mouseover', function() {
   bottomQuotes.style.animation = 'float 2s infinite, quote-start-transition 0.8s ease';
   topQuotes.style.backgroundPosition = '0 -150px';
   bottomQuotes.style.backgroundPosition = '0 -50px';
-  photo.style.backgroundPosition = '-1240px 0';
+  photo.map(avatar => avatar.style.backgroundPosition = '-1240px 0');
 });
 
 about.addEventListener('mouseout', function() {
@@ -69,7 +69,7 @@ about.addEventListener('mouseout', function() {
   bottomQuotes.style.animation = 'float 2s infinite, quote-finish-transition 0.8s ease';
   topQuotes.style.backgroundPosition = '0 0';
   bottomQuotes.style.backgroundPosition = '0 -200px';
-  photo.style.backgroundPosition = '0 0';
+  photo.map(avatar => avatar.style.backgroundPosition = '0 0');
 });
 
 contact.addEventListener('mouseover', function() {
@@ -77,7 +77,7 @@ contact.addEventListener('mouseover', function() {
   bottomQuotes.style.animation = 'float 2s infinite, quote-start-transition 0.8s ease';
   topQuotes.style.backgroundPosition = '0 -200px';
   bottomQuotes.style.backgroundPosition = '0 0';
-  photo.style.backgroundPosition = '-930px 0';
+  photo.map(avatar => avatar.style.backgroundPosition = '-930px 0');
 });
 
 contact.addEventListener('mouseout', function() {
@@ -85,7 +85,7 @@ contact.addEventListener('mouseout', function() {
   bottomQuotes.style.animation = 'float 2s infinite, quote-finish-transition 0.8s ease';
   topQuotes.style.backgroundPosition = '0 0';
   bottomQuotes.style.backgroundPosition = '0 -200px';
-  photo.style.backgroundPosition = '0 0';
+  photo.map(avatar => avatar.style.backgroundPosition = '0 0');
 });
 
 supporters.addEventListener('mouseover', function() {
@@ -93,7 +93,7 @@ supporters.addEventListener('mouseover', function() {
   bottomQuotes.style.animation = 'float 2s infinite, quote-start-transition 0.8s ease';
   topQuotes.style.backgroundPosition = '0 -200px';
   bottomQuotes.style.backgroundPosition = '0 0';
-  photo.style.backgroundPosition = '-930px 0';
+  photo.map(avatar => avatar.style.backgroundPosition = '-930px 0');
 });
 
 supporters.addEventListener('mouseout', function() {
@@ -101,5 +101,5 @@ supporters.addEventListener('mouseout', function() {
   bottomQuotes.style.animation = 'float 2s infinite, quote-finish-transition 0.8s ease';
   topQuotes.style.backgroundPosition = '0 0';
   bottomQuotes.style.backgroundPosition = '0 -200px';
-  photo.style.backgroundPosition = '0 0';
+  photo.map(avatar => avatar.style.backgroundPosition = '0 0');
 });
