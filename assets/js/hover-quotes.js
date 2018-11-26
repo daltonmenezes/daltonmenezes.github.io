@@ -1,4 +1,4 @@
-var photo = document.getElementById('photo');
+var photo = document.querySelector('.photo');
 var topQuotes = document.getElementById('top-quotes');
 var bottomQuotes = document.getElementById('bottom-quotes');
 var blog = document.getElementById('blog');

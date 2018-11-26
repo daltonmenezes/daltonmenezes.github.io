@@ -52,6 +52,11 @@ h1 {
   letter-spacing: 0.2em;
 }
 
+#menu {
+  margin: 0 10px;
+  line-height: 1.17;
+}
+
 ul {
   margin-top: 50px;
 }
@@ -119,7 +124,7 @@ footer {
   position: fixed;
 }
 
-#photo {
+.photo {
   width: 311px;
   height: 312px;
   background-image: url('../img/dalton-menezes.png');
@@ -148,16 +153,18 @@ footer {
   background-image: url('../img/top-quotes.png');
   background-repeat: no-repeat;
   background-position: 0 0;
+  position: fixed;
   animation: float 2s infinite;
 }
 
 #bottom-quotes {
-  margin: 150px 0 0 330px;
+  margin: 200px 0 0 330px;
   width: 65px;
   height: 45px;
   background-image: url('../img/bottom-quotes.png');
   background-repeat: no-repeat;
   background-position: 0 -200px;
+  position: fixed;
   animation: float 2s infinite;
 }
 
@@ -387,4 +394,127 @@ h3 {
 
 .design-item a:hover, .software-item a:focus {
   opacity: 0.9;
+}
+
+.glitch-image {
+  overflow: hidden;
+  position: relative;
+}
+
+@-webkit-keyframes glitch-anim-1 {
+  80% {
+    clip: rect(299px, 640px, 61px, 0);
+  }
+  84% {
+    clip: rect(226px, 640px, 87px, 0);
+  }
+  88% {
+    clip: rect(10px, 640px, 150px, 0);
+  }
+  92% {
+    clip: rect(235px, 640px, 292px, 0);
+  }
+  96% {
+    clip: rect(124px, 640px, 118px, 0);
+  }
+  100% {
+    clip: rect(224px, 640px, 178px, 0);
+  }
+}
+
+@keyframes glitch-anim-1 {
+  80% {
+    clip: rect(299px, 640px, 61px, 0);
+  }
+  84% {
+    clip: rect(226px, 640px, 87px, 0);
+  }
+  88% {
+    clip: rect(10px, 640px, 150px, 0);
+  }
+  92% {
+    clip: rect(235px, 640px, 292px, 0);
+  }
+  96% {
+    clip: rect(124px, 640px, 118px, 0);
+  }
+  100% {
+    clip: rect(224px, 640px, 178px, 0);
+  }
+}
+
+@-webkit-keyframes glitch-anim-2 {
+  72% {
+    clip: rect(193px, 640px, 77px, 0);
+  }
+  76% {
+    clip: rect(141px, 640px, 167px, 0);
+  }
+  80% {
+    clip: rect(84px, 640px, 100px, 0);
+  }
+  84% {
+    clip: rect(75px, 640px, 108px, 0);
+  }
+  88% {
+    clip: rect(251px, 640px, 225px, 0);
+  }
+  92% {
+    clip: rect(190px, 640px, 214px, 0);
+  }
+  96% {
+    clip: rect(22px, 640px, 218px, 0);
+  }
+  100% {
+    clip: rect(255px, 640px, 277px, 0);
+  }
+}
+
+@keyframes glitch-anim-2 {
+  72% {
+    clip: rect(193px, 640px, 77px, 0);
+  }
+  76% {
+    clip: rect(141px, 640px, 167px, 0);
+  }
+  80% {
+    clip: rect(193px, 640px, 77px, 0);
+  }
+  84% {
+    clip: rect(75px, 640px, 108px, 0);
+  }
+  88% {
+    clip: rect(251px, 640px, 225px, 0);
+  }
+  92% {
+    clip: rect(190px, 640px, 214px, 0);
+  }
+  96% {
+    clip: rect(22px, 640px, 218px, 0);
+  }
+  100% {
+    clip: rect(255px, 640px, 277px, 0);
+  }
+}
+
+.glitch-image > .item {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+.glitch-image > .item:nth-child(2),
+.glitch-image > .item:nth-child(3) {
+  clip: rect(0, 0, 0, 0);
+}
+
+.glitch-image > .item:nth-child(2) {
+  left: 2px;
+  filter: drop-shadow(-3px 0 0 #67d459);
+  animation: glitch-anim-1 3s infinite linear;
+}
+
+.glitch-image > .item:nth-child(3) {
+  left: -2px;
+  /*animation: glitch-anim-2 4s infinite linear alternate-reverse;*/
 }
