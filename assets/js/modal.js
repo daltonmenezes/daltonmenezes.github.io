@@ -26,6 +26,7 @@ function openModalContactWindow() {
 function openModalSoftwareWindow() {
   var softwareURL = [
     "assets/img/99notifications-icon.png",
+    "assets/img/omelete-tabs-icon.png",
     "assets/img/hyper-init.png",
     "assets/img/netflix-list-exporter-icon.png",
     "assets/img/what-type-is-icon.png",
