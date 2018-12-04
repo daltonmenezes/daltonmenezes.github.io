@@ -136,13 +136,13 @@ footer {
 }
 @keyframes fade-out-transition{
   from {opacity: 0}
-   to {opacity: 1}
+  to {opacity: 1}
 }
 
 @keyframes float{
-    from {-webkit-transform:translate(0, 0px); -moz-transform:translate(0, 0px);}
-    50% {-webkit-transform:translate(0, 1px); -moz-transform:translate(0, 1px);}
-    to {-webkit-transform: translate(0, 0px); -moz-transform: translate(0, 0px);}
+  from {-webkit-transform:translate(0, 0px); -moz-transform:translate(0, 0px);}
+  50% {-webkit-transform:translate(0, 1px); -moz-transform:translate(0, 1px);}
+  to {-webkit-transform: translate(0, 0px); -moz-transform: translate(0, 0px);}
 }
 
 .close-section {
@@ -217,7 +217,7 @@ footer {
 #modal-supporters p {
   font-size: 1.4em;
   font-weight: 300;
-  margin: 10px 20px 0 0;
+  margin: 10px 30px;
 }
 
 #modal-supporters img {
