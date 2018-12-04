@@ -72,12 +72,12 @@ a {
   text-decoration: none;
   color: #909090;
   transition: color 0.5s;
-  animation: quote-finish-transition 0.8s ease;
+  animation: fade-out-transition 0.8s ease;
 }
 
 a:hover {
   transition: color 0.5s;
-  animation: quote-start-transition 0.8s ease;
+  animation: fade-in-transition 0.8s ease;
 }
 
 a:focus {
@@ -124,47 +124,26 @@ footer {
 }
 
 .photo {
-  width: 311px;
-  height: 312px;
+  width: 310px;
+  height: 325px;
   background-image: url('../img/dalton-menezes.gif');
   background-repeat: no-repeat;
+  animation: float 1.5s infinite;
 }
 
-@keyframes quote-start-transition{
+@keyframes fade-in-transition{
   from {opacity: 0}
    to {opacity: 1}
 }
-@keyframes quote-finish-transition{
+@keyframes fade-out-transition{
   from {opacity: 0}
    to {opacity: 1}
 }
 
 @keyframes float{
     from {-webkit-transform:translate(0, 0px); -moz-transform:translate(0, 0px);}
-    50% {-webkit-transform:translate(0, -15px); -moz-transform:translate(0, -15px);}
-    to {-webkit-transform: translate(0, -0px); -moz-transform: translate(0, -0px);}
-}
-
-#top-quotes {
-  margin-left: -80px;
-  width: 65px;
-  height: 45px;
-  background-image: url('../img/top-quotes.png');
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  position: fixed;
-  animation: float 2s infinite;
-}
-
-#bottom-quotes {
-  margin: 200px 0 0 330px;
-  width: 65px;
-  height: 45px;
-  background-image: url('../img/bottom-quotes.png');
-  background-repeat: no-repeat;
-  background-position: 0 -200px;
-  position: fixed;
-  animation: float 2s infinite;
+    50% {-webkit-transform:translate(0, 1px); -moz-transform:translate(0, 1px);}
+    to {-webkit-transform: translate(0, 0px); -moz-transform: translate(0, 0px);}
 }
 
 .close-section {
@@ -358,7 +337,7 @@ h3 {
 
 .see-all a:hover, .see-all a:focus {
   color: #94677d;
-  animation: skills-start-transition 1s infinite, quote-start-transition 0.5s ease;
+  animation: skills-start-transition 1s infinite, fade-in-transition 0.5s ease;
 }
 
 .design-project {

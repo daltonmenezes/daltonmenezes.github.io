@@ -12,15 +12,15 @@ function openModalSupportersWindow() {
     "assets/img/supporters/gabi_pimenta.jpeg",
     "assets/img/supporters/isa.jpg"
   ]
-  
+
   loadImages(supportersURL, '.supporters-img')
   modalSupporters.style.visibility = 'visible';
-  modalSupporters.style.animation = 'quote-start-transition 0.5s ease';
+  modalSupporters.style.animation = 'fade-in-transition 0.5s ease';
 }
 
 function openModalContactWindow() {
   modalContact.style.visibility = 'visible';
-  modalContact.style.animation = 'quote-start-transition 0.5s ease';
+  modalContact.style.animation = 'fade-in-transition 0.5s ease';
 }
 
 function openModalSoftwareWindow() {
@@ -36,10 +36,10 @@ function openModalSoftwareWindow() {
     "assets/img/pepper-icon.png",
     "assets/img/youtplayer-icon.png"
   ]
-  
+
   loadImages(softwareURL, '.software-img')
   modalSoftware.style.visibility = 'visible';
-  modalSoftware.style.animation = 'quote-start-transition 0.5s ease';
+  modalSoftware.style.animation = 'fade-in-transition 0.5s ease';
 }
 
 function openModalDesignWindow() {
@@ -68,16 +68,16 @@ function openModalDesignWindow() {
     "assets/img/design/odalisca-min.jpg",
     "assets/img/design/roberbills-min.jpg",
     "assets/img/design/medieval-warrior-min.jpg"
-  ]  
-  
+  ]
+
   loadImages(imageURL, '.design-img')
   modalDesign.style.visibility = 'visible';
-  modalDesign.style.animation = 'quote-start-transition 0.5s ease';
+  modalDesign.style.animation = 'fade-in-transition 0.5s ease';
 }
 
 function openModalAboutWindow() {
   modalAbout.style.visibility = 'visible';
-  modalAbout.style.animation = 'quote-start-transition 0.5s ease';
+  modalAbout.style.animation = 'fade-in-transition 0.5s ease';
   animateSkills();
 }
 
@@ -105,7 +105,7 @@ for (i = 0; i < close.length; i++) {
     close[i].addEventListener('click', function(event) {
       resetSkillsAnimation();
       _window = event.target.offsetParent;
-      _window.style.animation = 'quote-finish-transition 0.8s ease';
+      _window.style.animation = 'fade-out-transition 0.8s ease';
       _window.style.visibility = 'hidden';
     });
 }

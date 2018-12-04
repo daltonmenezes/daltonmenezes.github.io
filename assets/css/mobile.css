@@ -56,7 +56,7 @@
       margin-top: 45px !important;
       position: fixed;
       z-index: 10000;
-    }    
+    }
 
     ul {
       display: inline-flex !important;
@@ -76,14 +76,6 @@
       height: 312px !important;
     }
 
-    #top-quotes {
-      margin-left: -19px !important;
-    }
-
-    #bottom-quotes {
-      margin: 150px 0 0 265px !important;
-    }
-
     .modal {
       z-index: 300000 !important;
     }
@@ -94,7 +86,7 @@
 
     #supporters {
       margin: 0 20px !important;
-    }    
+    }
 
     #about-text h2 {
       margin: 15px 0 20px 0 !important;
@@ -126,7 +118,7 @@ and (orientation: portrait) {
     justify-content: center !important;
     padding-left: 16px;
   }
-  
+
   .see-all {
     font-size: 1.2em !important;
   }
@@ -162,22 +154,13 @@ and (orientation: portrait) {
     header li {
       letter-spacing: 0.3em;
     }
-    
+
     .see-all {
       font-size: 1em !important;
     }
 
     #contacts {
       margin-top: 60px !important;
-    }
-
-    #top-quotes {
-      margin-left: 0 !important;
-      background-size: cover;
-    }
-
-    #bottom-quotes {
-      margin: 165px 0 0 245px !important;
     }
 }
 
@@ -193,7 +176,7 @@ and (orientation: portrait) {
     font-size: 0.95em;
     margin-top: 25px !important;
   }
-  
+
   .see-all {
     font-size: 1em !important;
   }

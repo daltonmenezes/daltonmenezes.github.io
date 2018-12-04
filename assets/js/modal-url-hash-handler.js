@@ -1,10 +1,9 @@
 function clearModal() {
   var modalList = document.querySelectorAll('.modal');
-  
+
   for (i = 0; i < modalList.length; i++) {
-      modalList[i].style.animation = 'quote-finish-transition 0.8s ease';
       modalList[i].style.visibility = 'hidden';
-  }  
+  }
 }
 
 function openModal() {
