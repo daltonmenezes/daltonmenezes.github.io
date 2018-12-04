@@ -1,0 +1,247 @@
+<svg id="dalton" xmlns="http://www.w3.org/2000/svg" width="157" height="322" viewBox="0 0 157 322">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill: #111;
+      }
+
+      .cls-2 {
+        fill: #888;
+      }
+
+      .cls-3 {
+        fill: #222;
+      }
+
+      .cls-4 {
+        fill: #fff9dc;
+      }
+
+      .cls-5 {
+        fill: #dcd4a6;
+      }
+
+      .cls-6, .cls-8 {
+        fill: #0f0f0f;
+      }
+
+      .cls-7 {
+        fill: #d2cdb5;
+      }
+
+      .cls-8 {
+        opacity: 0.4;
+        animation: mouth 4s infinite;
+      }
+
+      .cls-9 {
+        fill: #101010;
+      }
+
+      @keyframes mouth{
+        from { height: 4px; }
+        10% { height: 2px; }
+        12% { height: 2px; }
+        100% { height: 4px; }
+      }
+
+      @keyframes eyes{
+        from { opacity: 1; }
+        5% { opacity: 0; }
+        9% { opacity: 1; }
+      }
+
+      @keyframes body{
+        from { transform: scale(1, 1); }
+        50% { transform: scale(1, 0.98); }
+        100% { transform: scale(1, 1); }
+      }
+
+      #opened-eyes {
+        animation: eyes 4s infinite;
+      }
+
+      #hoodie, #hands, #pants, #neck {
+        animation: body 8s infinite;
+      }
+    </style>
+  </defs>
+  <g id="hoodie">
+    <rect id="hoodie-2" data-name="hoodie" class="cls-1" x="8" y="156" width="140" height="160"/>
+    <rect id="hoodie-3" data-name="hoodie" class="cls-1" x="28" y="136" width="20" height="21"/>
+    <rect id="hoodie_copy" data-name="hoodie copy" class="cls-1" x="108" y="136" width="20" height="21"/>
+    <g>
+      <rect class="cls-2" x="98" y="166" width="10" height="10"/>
+      <rect class="cls-2" x="108" y="176" width="10" height="10"/>
+      <rect class="cls-2" x="98" y="186" width="10" height="50"/>
+      <rect class="cls-2" x="38" y="176" width="10" height="60"/>
+      <rect class="cls-2" x="48" y="166" width="10" height="10"/>
+    </g>
+  </g>
+  <rect id="pants" class="cls-3" x="28" y="297" width="100" height="45"/>
+  <g id="hands">
+    <rect id="right-hand" class="cls-4" x="128" y="316" width="19" height="6"/>
+    <rect id="left-hand" class="cls-4" x="9" y="316" width="19" height="6"/>
+  </g>
+  <g id="head">
+    <g id="neck">
+      <rect id="neck-bottom" class="cls-4" x="48" y="137" width="60" height="19"/>
+      <rect id="neck-top" class="cls-4" x="49" y="115" width="58" height="22"/>
+      <rect id="neck-shadow" class="cls-5" x="68" y="116" width="39" height="20"/>
+    </g>
+    <rect id="head-2" data-name="head" class="cls-4" x="49" y="56" width="78" height="59"/>
+    <g id="eyes">
+      <g id="closed-eyes">
+        <rect id="closed-eye-right" class="cls-6" x="112" y="79" width="6" height="4"/>
+        <rect id="closed-eye-left" class="cls-6" x="82" y="79" width="6" height="4"/>
+      </g>
+      <g id="opened-eyes">
+        <rect id="opned-eye-left" class="cls-6" x="82" y="67" width="6" height="16"/>
+        <rect id="opened-eye-right" class="cls-6" x="112" y="67" width="6" height="16"/>
+      </g>
+    </g>
+    <g id="beard">
+      <rect class="cls-7" x="49" y="76" width="1" height="2"/>
+      <rect class="cls-7" x="52" y="76" width="2" height="2"/>
+      <rect class="cls-7" x="56" y="76" width="2" height="2"/>
+      <rect class="cls-7" x="60" y="76" width="2" height="2"/>
+      <rect class="cls-7" x="64" y="76" width="2" height="2"/>
+      <rect class="cls-7" x="50" y="80" width="2" height="2"/>
+      <rect class="cls-7" x="54" y="80" width="2" height="2"/>
+      <rect class="cls-7" x="58" y="80" width="2" height="2"/>
+      <rect class="cls-7" x="62" y="80" width="2" height="2"/>
+      <rect class="cls-7" x="66" y="80" width="2" height="2"/>
+      <rect class="cls-7" x="49" y="84" width="1" height="2"/>
+      <rect class="cls-7" x="52" y="84" width="2" height="2"/>
+      <rect class="cls-7" x="56" y="84" width="2" height="2"/>
+      <rect class="cls-7" x="60" y="84" width="2" height="2"/>
+      <rect class="cls-7" x="64" y="84" width="2" height="2"/>
+      <rect class="cls-7" x="50" y="88" width="2" height="2"/>
+      <rect class="cls-7" x="54" y="88" width="2" height="2"/>
+      <rect class="cls-7" x="58" y="88" width="2" height="2"/>
+      <rect class="cls-7" x="62" y="88" width="2" height="2"/>
+      <rect class="cls-7" x="66" y="88" width="2" height="2"/>
+      <rect class="cls-7" x="49" y="92" width="1" height="2"/>
+      <rect class="cls-7" x="52" y="92" width="2" height="2"/>
+      <rect class="cls-7" x="56" y="92" width="2" height="2"/>
+      <rect class="cls-7" x="60" y="92" width="2" height="2"/>
+      <rect class="cls-7" x="64" y="92" width="2" height="2"/>
+      <rect class="cls-7" x="49" y="96" width="1" height="2"/>
+      <rect class="cls-7" x="52" y="96" width="2" height="2"/>
+      <rect class="cls-7" x="56" y="96" width="2" height="2"/>
+      <rect class="cls-7" x="60" y="96" width="2" height="2"/>
+      <rect class="cls-7" x="64" y="96" width="2" height="2"/>
+      <rect class="cls-7" x="68" y="96" width="2" height="2"/>
+      <rect class="cls-7" x="72" y="96" width="2" height="2"/>
+      <rect class="cls-7" x="76" y="96" width="2" height="2"/>
+      <rect class="cls-7" x="80" y="96" width="2" height="2"/>
+      <rect class="cls-7" x="84" y="96" width="2" height="2"/>
+      <rect class="cls-7" x="88" y="96" width="2" height="2"/>
+      <rect class="cls-7" x="92" y="96" width="2" height="2"/>
+      <rect class="cls-7" x="96" y="96" width="2" height="2"/>
+      <rect class="cls-7" x="100" y="96" width="2" height="2"/>
+      <rect class="cls-7" x="104" y="96" width="2" height="2"/>
+      <rect class="cls-7" x="108" y="96" width="2" height="2"/>
+      <rect class="cls-7" x="112" y="96" width="2" height="2"/>
+      <rect class="cls-7" x="116" y="96" width="2" height="2"/>
+      <rect class="cls-7" x="120" y="96" width="2" height="2"/>
+      <rect class="cls-7" x="124" y="96" width="2" height="2"/>
+      <rect class="cls-7" x="50" y="100" width="2" height="2"/>
+      <rect class="cls-7" x="54" y="100" width="2" height="2"/>
+      <rect class="cls-7" x="58" y="100" width="2" height="2"/>
+      <rect class="cls-7" x="62" y="100" width="2" height="2"/>
+      <rect class="cls-7" x="66" y="100" width="2" height="2"/>
+      <rect class="cls-7" x="70" y="100" width="2" height="2"/>
+      <rect class="cls-7" x="74" y="100" width="2" height="2"/>
+      <rect class="cls-7" x="78" y="100" width="2" height="2"/>
+      <rect class="cls-7" x="82" y="100" width="2" height="2"/>
+      <rect class="cls-7" x="86" y="100" width="2" height="2"/>
+      <rect class="cls-7" x="90" y="100" width="2" height="2"/>
+      <rect class="cls-7" x="94" y="100" width="2" height="2"/>
+      <rect class="cls-7" x="98" y="100" width="2" height="2"/>
+      <rect class="cls-7" x="102" y="100" width="2" height="2"/>
+      <rect class="cls-7" x="106" y="100" width="2" height="2"/>
+      <rect class="cls-7" x="110" y="100" width="2" height="2"/>
+      <rect class="cls-7" x="114" y="100" width="2" height="2"/>
+      <rect class="cls-7" x="118" y="100" width="2" height="2"/>
+      <rect class="cls-7" x="122" y="100" width="2" height="2"/>
+      <rect class="cls-7" x="126" y="100" width="1" height="2"/>
+      <rect class="cls-7" x="49" y="104" width="1" height="2"/>
+      <rect class="cls-7" x="52" y="104" width="2" height="2"/>
+      <rect class="cls-7" x="56" y="104" width="2" height="2"/>
+      <rect class="cls-7" x="60" y="104" width="2" height="2"/>
+      <rect class="cls-7" x="64" y="104" width="2" height="2"/>
+      <rect class="cls-7" x="68" y="104" width="2" height="2"/>
+      <rect class="cls-7" x="72" y="104" width="2" height="2"/>
+      <rect class="cls-7" x="76" y="104" width="2" height="2"/>
+      <rect class="cls-7" x="80" y="104" width="2" height="2"/>
+      <rect class="cls-7" x="84" y="104" width="2" height="2"/>
+      <rect class="cls-7" x="88" y="104" width="2" height="2"/>
+      <rect class="cls-7" x="92" y="104" width="2" height="2"/>
+      <rect class="cls-7" x="96" y="104" width="2" height="2"/>
+      <rect class="cls-7" x="100" y="104" width="2" height="2"/>
+      <rect class="cls-7" x="104" y="104" width="2" height="2"/>
+      <rect class="cls-7" x="108" y="104" width="2" height="2"/>
+      <rect class="cls-7" x="112" y="104" width="2" height="2"/>
+      <rect class="cls-7" x="116" y="104" width="2" height="2"/>
+      <rect class="cls-7" x="120" y="104" width="2" height="2"/>
+      <rect class="cls-7" x="124" y="104" width="2" height="2"/>
+      <rect class="cls-7" x="50" y="108" width="2" height="2"/>
+      <rect class="cls-7" x="54" y="108" width="2" height="2"/>
+      <rect class="cls-7" x="58" y="108" width="2" height="2"/>
+      <rect class="cls-7" x="62" y="108" width="2" height="2"/>
+      <rect class="cls-7" x="66" y="108" width="2" height="2"/>
+      <rect class="cls-7" x="70" y="108" width="2" height="2"/>
+      <rect class="cls-7" x="74" y="108" width="2" height="2"/>
+      <rect class="cls-7" x="78" y="108" width="2" height="2"/>
+      <rect class="cls-7" x="82" y="108" width="2" height="2"/>
+      <rect class="cls-7" x="86" y="108" width="2" height="2"/>
+      <rect class="cls-7" x="90" y="108" width="2" height="2"/>
+      <rect class="cls-7" x="94" y="108" width="2" height="2"/>
+      <rect class="cls-7" x="98" y="108" width="2" height="2"/>
+      <rect class="cls-7" x="102" y="108" width="2" height="2"/>
+      <rect class="cls-7" x="106" y="108" width="2" height="2"/>
+      <rect class="cls-7" x="110" y="108" width="2" height="2"/>
+      <rect class="cls-7" x="114" y="108" width="2" height="2"/>
+      <rect class="cls-7" x="118" y="108" width="2" height="2"/>
+      <rect class="cls-7" x="122" y="108" width="2" height="2"/>
+      <rect class="cls-7" x="126" y="108" width="1" height="2"/>
+      <rect class="cls-7" x="49" y="112" width="1" height="2"/>
+      <rect class="cls-7" x="52" y="112" width="2" height="2"/>
+      <rect class="cls-7" x="56" y="112" width="2" height="2"/>
+      <rect class="cls-7" x="60" y="112" width="2" height="2"/>
+      <rect class="cls-7" x="64" y="112" width="2" height="2"/>
+      <rect class="cls-7" x="68" y="112" width="2" height="2"/>
+      <rect class="cls-7" x="72" y="112" width="2" height="2"/>
+      <rect class="cls-7" x="76" y="112" width="2" height="2"/>
+      <rect class="cls-7" x="80" y="112" width="2" height="2"/>
+      <rect class="cls-7" x="84" y="112" width="2" height="2"/>
+      <rect class="cls-7" x="88" y="112" width="2" height="2"/>
+      <rect class="cls-7" x="92" y="112" width="2" height="2"/>
+      <rect class="cls-7" x="96" y="112" width="2" height="2"/>
+      <rect class="cls-7" x="100" y="112" width="2" height="2"/>
+      <rect class="cls-7" x="104" y="112" width="2" height="2"/>
+      <rect class="cls-7" x="108" y="112" width="2" height="2"/>
+      <rect class="cls-7" x="112" y="112" width="2" height="2"/>
+      <rect class="cls-7" x="116" y="112" width="2" height="2"/>
+      <rect class="cls-7" x="120" y="112" width="2" height="2"/>
+      <rect class="cls-7" x="124" y="112" width="2" height="2"/>
+    </g>
+    <rect id="mouth" class="cls-8" x="87" y="104" width="18" height="4"/>
+    <g id="hair">
+      <rect class="cls-9" x="48" y="36" width="20" height="40"/>
+      <rect id="Rectangle_5_copy" data-name="Rectangle 5 copy" class="cls-9" x="68" y="16" width="40" height="40"/>
+      <rect id="Rectangle_5_copy_2" data-name="Rectangle 5 copy 2" class="cls-9" x="108" y="10" width="20" height="46"/>
+      <rect class="cls-9" x="59" y="36" width="25" height="20"/>
+      <rect id="Rectangle_136_copy" data-name="Rectangle 136 copy" class="cls-9" x="96" y="16" width="25" height="40"/>
+    </g>
+  </g>
+</svg>

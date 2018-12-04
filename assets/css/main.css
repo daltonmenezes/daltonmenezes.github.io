@@ -38,7 +38,7 @@ header {
   display: flex;
   flex-flow: column;
   align-content: center;
-  margin-top: 75px;
+  margin-top: 45px;
   width: 100%;
   text-align: center;
   overflow: hidden;
@@ -123,11 +123,11 @@ footer {
 }
 
 .photo {
-  width: 310px;
-  height: 325px;
-  background-image: url('../img/dalton-menezes.gif');
+  width: 180px;
+  height: 350px;
+  background-image: url('../img/dalton-menezes.svg');
+  background-size: contain;
   background-repeat: no-repeat;
-  animation: float 1.5s infinite;
 }
 
 @keyframes fade-in-transition{
@@ -137,12 +137,6 @@ footer {
 @keyframes fade-out-transition{
   from {opacity: 0}
   to {opacity: 1}
-}
-
-@keyframes float{
-  from {-webkit-transform:translate(0, 0px); -moz-transform:translate(0, 0px);}
-  50% {-webkit-transform:translate(0, 1px); -moz-transform:translate(0, 1px);}
-  to {-webkit-transform: translate(0, 0px); -moz-transform: translate(0, 0px);}
 }
 
 .close-section {
