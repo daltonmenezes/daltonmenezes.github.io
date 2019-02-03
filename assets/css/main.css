@@ -89,6 +89,10 @@ a:focus {
   color: #c7c7c7;
 }
 
+#incentive-supporters {
+  padding-bottom: 20px;
+}
+
 #supporters:hover, #supporters:focus, #supporters:active {
   color: #85a98a;
 }
@@ -123,7 +127,7 @@ footer {
 }
 
 .photo {
-  width: 180px;
+  width: 177px;
   height: 350px;
   background-image: url('../img/dalton-menezes.svg');
   background-size: contain;
