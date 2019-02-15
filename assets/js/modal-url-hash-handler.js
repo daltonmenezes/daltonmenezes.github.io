@@ -10,6 +10,7 @@ function openModal() {
   var hash = window.location.hash;
 
   switch (hash) {
+    case '#literature': openModalLiteratureWindow(); break;
     case '#supporters': openModalSupportersWindow(); break;
     case '#contact': openModalContactWindow(); break;
     case '#about': openModalAboutWindow(); break;

@@ -1,10 +1,21 @@
 var close = document.querySelectorAll('.close');
+var modalLiterature = document.getElementById('modal-literature');
 var modalSupporters = document.getElementById('modal-supporters');
 var modalContact = document.getElementById('modal-contact');
 var modalAbout = document.getElementById('modal-about');
 var modalSoftware = document.getElementById('modal-software');
 var modalDesign = document.getElementById('modal-design');
 var skills = document.querySelectorAll('.skill-tag');
+
+function openModalLiteratureWindow() {
+  var imageURL = [
+    "assets/img/literature/o-escritor-dalton-menezes-min.jpg"
+  ]
+
+  loadImages(imageURL, '.literature-img')
+  modalLiterature.style.visibility = 'visible';
+  modalLiterature.style.animation = 'fade-in-transition 0.5s ease';
+}
 
 function openModalSupportersWindow() {
   var supportersURL = [
