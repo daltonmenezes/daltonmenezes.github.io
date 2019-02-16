@@ -345,11 +345,15 @@ h3 {
   margin: 20px 20px 0 20px;
 }
 
+.books-project {
+  padding: 40px 0;
+}
+
 .design-project h2, .literature-project h2 {
   margin: 10px 0 10px 0;
 }
 
-.design-item {
+#modal-design .design-item {
   padding: 40px;
 }
 
