@@ -337,7 +337,7 @@ h3 {
   animation: skills-start-transition 1s infinite, fade-in-transition 0.5s ease;
 }
 
-.design-project {
+.design-project, .literature-project {
   display: flex;
   flex-flow: row-reverse;
   flex-wrap: wrap-reverse;
@@ -345,7 +345,7 @@ h3 {
   margin: 20px 20px 0 20px;
 }
 
-.design-project h2 {
+.design-project h2, .literature-project h2 {
   margin: 10px 0 10px 0;
 }
 
@@ -353,7 +353,7 @@ h3 {
   padding: 40px;
 }
 
-.design-item img {
+.design-item img, .literature-img {
   border: 6px solid;
   /*border-color: #c7c7c7;*/
   border-color: #292929;
