@@ -337,7 +337,7 @@ h3 {
   animation: skills-start-transition 1s infinite, fade-in-transition 0.5s ease;
 }
 
-.design-project, .literature-project {
+.design-project {
   display: flex;
   flex-flow: row-reverse;
   flex-wrap: wrap-reverse;
@@ -349,7 +349,7 @@ h3 {
   padding: 40px 0;
 }
 
-.design-project h2, .literature-project h2 {
+.design-project h2 {
   margin: 10px 0 10px 0;
 }
 
