@@ -122,14 +122,15 @@ footer {
   flex-flow: column;
   align-items: center;
   width: 100%;
-  bottom: 0;
+  bottom: -10px;
   position: fixed;
+  z-index: -10000;
 }
 
 .photo {
-  width: 177px;
-  height: 350px;
-  background-image: url('../img/dalton-menezes.svg');
+  width: 361px;
+  height: 369px;
+  background-image: url('../img/daltonmenezes.png');
   background-size: contain;
   background-repeat: no-repeat;
 }

@@ -37,12 +37,6 @@ and (orientation: portrait) {
     margin: 10px 30px !important;
   }
 
-  .photo {
-    width: 325px !important;
-    height: 620px !important;
-    top: 0 !important;
-  }
-
   #contacts {
     margin-top: 40% !important;
   }
@@ -69,12 +63,6 @@ and (orientation: portrait) {
   .separator {
     display: inline-flex;
     color: #c7c7c7;
-  }
-
-  .photo {
-    width: 225px !important;
-    height: 445px !important;
-    top: 0 !important;
   }
 
   #contacts {
@@ -129,12 +117,6 @@ and (orientation: portrait) {
 
   #language-menu .separator {
     margin: -2px 40px !important;
-  }
-
-  .photo {
-    width: 225px !important;
-    height: 445px !important;
-    top: 0 !important;
   }
 
   #contacts {
@@ -206,12 +188,6 @@ and (orientation: portrait) {
 
     .separator {
       margin: -4px 0 !important;
-    }
-
-    .photo {
-      width: 215px !important;
-      height: 400px !important;
-      top: 0 !important;
     }
 
     ul {
@@ -350,12 +326,6 @@ and (orientation: portrait) {
     vertical-align: middle !important;
   }
 
-  .photo {
-    width: 185px !important;
-    height: 346px !important;
-    top: 0 !important;
-  }
-
   #contacts {
     margin-top: 50% !important;
   }
@@ -408,12 +378,6 @@ and (orientation: portrait) {
     font-size: 1.2em !important;
   }
 
-  .photo {
-    width: 160px !important;
-    height: 325px !important;
-    top: 0 !important;
-  }
-
   #contacts {
     margin-top: 30% !important;
   }
@@ -462,12 +426,6 @@ and (orientation: portrait) {
 
   .see-all {
     font-size: 1.2em !important;
-  }
-
-  .photo {
-    width: 145px !important;
-    height: 295px !important;
-    top: 0 !important;
   }
 
   #contacts {
@@ -520,12 +478,6 @@ and (orientation: portrait) {
 
   .see-all {
     font-size: 1.2em !important;
-  }
-
-  .photo {
-    width: 145px !important;
-    height: 295px !important;
-    top: 0 !important;
   }
 
   #contacts {
@@ -587,12 +539,6 @@ and (orientation: portrait) {
     margin-top: 30% !important;
   }
 
-  .photo {
-    width: 171px !important;
-    height: 300px !important;
-    top: 0 !important;
-  }
-
 }
 
 @media screen
@@ -648,13 +594,6 @@ and (orientation: portrait) {
   #contacts {
     margin-top: 30% !important;
   }
-
-  .photo {
-    width: 131px !important;
-    height: 260px !important;
-    top: 0 !important;
-  }
-
 }
 
 @media screen
@@ -668,12 +607,6 @@ and (orientation: portrait) {
 
     header h1 {
       font-size: 1.4em;
-    }
-
-    .photo {
-      width: 120px !important;
-      height: 230px !important;
-      top: 0 !important;
     }
 
     header ul {
@@ -749,12 +682,6 @@ and (orientation: portrait) {
   #language-menu .separator {
     margin: -10px 20px !important;
     vertical-align: middle !important;
-  }
-
-  .photo {
-    width: 100px !important;
-    height: 180px !important;
-    top: 0 !important;
   }
 
   .see-all {
