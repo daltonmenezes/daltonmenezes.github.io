@@ -62,7 +62,6 @@ function openModalDesignWindow() {
     "assets/img/design/dark-man-min.jpg",
     "assets/img/design/wolf-min.jpg",
     "assets/img/design/girl-beach-min.jpg",
-    "assets/img/design/lotus-min.jpg",
     "assets/img/design/woman-cross-min.jpg",
     "assets/img/design/suicide-min.jpg",
     "assets/img/design/lucifer-min.jpg",
