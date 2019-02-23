@@ -76,6 +76,13 @@ function openModalDesignWindow() {
     "assets/img/design/my-altered-self-min.jpg",
     "assets/img/design/interstice-min.jpg",
     "assets/img/design/odalisca-min.jpg",
+    "assets/img/design/brokenstone-min.jpg",
+    "assets/img/design/wolfsprinzessin1-min.jpg",
+    "assets/img/design/wolfsprinzessin2-min.jpg",
+    "assets/img/design/wolfsprinzessin3-min.jpg",
+    "assets/img/design/vampires-min.jpg",
+    "assets/img/design/quando-a-neve-cair-min.jpg",
+    "assets/img/design/o-escritor-min.jpg",
     "assets/img/design/roberbills-min.jpg",
     "assets/img/design/medieval-warrior-min.jpg"
   ]
