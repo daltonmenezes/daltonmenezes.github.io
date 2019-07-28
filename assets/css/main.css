@@ -45,14 +45,14 @@ header {
 }
 
 h1 {
-  font-size: 1.56em;
+  font-size: 2em;
   font-weight: 300;
   transform: scale(1.22, 1.01);
   letter-spacing: 0.2em;
 }
 
 #menu {
-  margin: 0 10px;
+  margin: 45px 10px;
 }
 
 ul {
@@ -122,15 +122,16 @@ footer {
   flex-flow: column;
   align-items: center;
   width: 100%;
-  bottom: -10px;
+  bottom: 0;
+  margin-left: -30px;
   position: fixed;
   z-index: -10000;
 }
 
 .photo {
-  width: 358px;
-  height: 369px;
-  background-image: url('../img/daltonmenezes.png');
+  width: 110px;
+  height: 269px;
+  background-image: url('../img/usb.png');
   background-size: contain;
   background-repeat: no-repeat;
 }
