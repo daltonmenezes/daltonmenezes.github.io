@@ -1,13 +1,13 @@
-function clearModal() {
-  var modalList = document.querySelectorAll('.modal');
+const clearModal = () => {
+  const modalList = document.querySelectorAll('.modal')
 
-  for (i = 0; i < modalList.length; i++) {
-      modalList[i].style.visibility = 'hidden';
-  }
+  Array
+    .from(modalList)
+    .map(modal => modal.style.visibility = 'hidden')
 }
 
-function openModal() {
-  var hash = window.location.hash;
+const openModal = () => {
+  const hash = window.location.hash
 
   switch (hash) {
     case '#literature': openModalLiteratureWindow(); break;
@@ -19,16 +19,16 @@ function openModal() {
   }
 }
 
-window.addEventListener("hashchange", function() {
-  clearModal();
-  openModal();
-}, false);
+window.addEventListener('hashchange', () => {
+  clearModal()
+  openModal()
+}, false)
 
-window.addEventListener("keydown", function(keyPressed) {
+window.addEventListener('keydown', keyPressed => {
   if (keyPressed.keyCode == 27) {
-      window.location.hash = "#";
-      clearModal();
+      window.location.hash = '#'
+      clearModal()
   }
-}, false);
+}, false)
 
-openModal();
+openModal()

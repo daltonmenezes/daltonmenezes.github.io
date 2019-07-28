@@ -1,19 +1,19 @@
-birthday = {
+const birthday = {
   getAge: function(date_of_birth) {
-    return this._birthdayCalculate(date_of_birth);
+    return this._birthdayCalculate(date_of_birth)
   },
   
-  _birthdayCalculate: function(date_of_birth) {
-    var birthday = new Date(date_of_birth);  
-    var today = new Date();  
-    var age = today.getFullYear() - birthday.getFullYear();  
+  _birthdayCalculate: date_of_birth => {
+    const birthday = new Date(date_of_birth)
+    const today = new Date()
+    let age = today.getFullYear() - birthday.getFullYear()
 
-    birthday.setFullYear(today.getFullYear());  
+    birthday.setFullYear(today.getFullYear())
 
-    if (today < birthday)  
-    {  
-      age--;  
+    if (today < birthday) {
+        age--
     }
-    return age;  
+    
+    return age  
   }  
 }
