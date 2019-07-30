@@ -9,7 +9,9 @@ const skills = document.querySelectorAll('.skill-tag')
 
 const openModalLiteratureWindow = () => {
   const imageURL = [
-    'assets/img/literature/o-escritor-dalton-menezes-min.jpg'
+    'assets/img/literature/o-escritor-dalton-menezes-min.jpg',
+    'assets/img/literature/alegorico-ser-dalton-menezes-min.jpg',
+    'assets/img/literature/incognita-dalton-menezes-min.jpg'
   ]
 
   loadImages(imageURL, '.literature-img')

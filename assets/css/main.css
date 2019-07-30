@@ -348,7 +348,16 @@ h3 {
 }
 
 .books-project {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 40px 0;
+  margin: 20px;
+}
+
+.books-project .design-item {
+  margin: 10px;
 }
 
 .books-project img {
