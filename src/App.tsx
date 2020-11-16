@@ -1,11 +1,9 @@
-import React from 'react';
+import React, { ReactElement } from 'react'
 
-function App() {
+export default function App(): ReactElement {
   return (
     <div className="App">
       <h1>Dalton Menezes</h1>
     </div>
-  );
+  )
 }
-
-export default App;
