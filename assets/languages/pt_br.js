@@ -42,7 +42,7 @@ pt_br = {
   supporters: 'COLABORADORES',
   thanks_supporters: `
     Eu quero agradecer a cada um que acredita no meu trabalho e está me apoiando.<br /> 
-    Se você ainda não é um colaborador, por favor veja a minha página no <a href="https://www.patreon.com/daltonmenezes" target="_blank">Patreon</a> ou <a href="https://www.padrim.com.br/daltonmenezes" target="_blank">Padrim</a> para ver os benefícios.
+    Se você ainda não é um colaborador, por favor veja a minha página no <a href="https://www.patreon.com/daltonmenezes" target="_blank">Patreon</a> para ver os benefícios.
   `,
   platinum_sponsors: 'FINANCIADORES PLATINA',
   gold_sponsors: 'FINANCIADORES OURO',

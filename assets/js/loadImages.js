@@ -1,5 +1,8 @@
 const loadImages = (imageURL, className) => {
   imageURL.map((url, index) => {
-    document.querySelectorAll(className)[index].src = url
+    const image = document.querySelectorAll(className)[index]
+    if (image) {
+      image.src = url
+    }
   })
 }

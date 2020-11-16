@@ -42,7 +42,7 @@ en = {
   supporters: 'SUPPORTERS',
   thanks_supporters: `
     I would like to thank each of you who believe in my work and are supporting me.<br /> 
-    If you are not yet a supporter, please look at my page on <a href="https://www.patreon.com/daltonmenezes" target="_blank">Patreon</a> or <a href="https://www.padrim.com.br/daltonmenezes" target="_blank">Padrim</a> to see the benefits.
+    If you are not yet a supporter, please look at my page on <a href="https://www.patreon.com/daltonmenezes" target="_blank">Patreon</a> to see the benefits.
   `,
   platinum_sponsors: 'PLATINUM SPONSORS',
   gold_sponsors: 'GOLD SPONSORS',
