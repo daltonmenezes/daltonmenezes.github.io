@@ -1,7 +1,7 @@
 import React, { ReactElement } from 'react'
 import Header from 'components/Layout/Header'
 
-export default function Home(): ReactElement {
+export default function App(): ReactElement {
   return (
     <div className="App">
       <Header>

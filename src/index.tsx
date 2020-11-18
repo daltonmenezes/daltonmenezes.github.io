@@ -1,13 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import Home from 'screens/Home'
+import Routes from './Routes'
 
 import 'styles/global.sass'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <Routes />
   </React.StrictMode>,
   document.getElementById('root')
 )
