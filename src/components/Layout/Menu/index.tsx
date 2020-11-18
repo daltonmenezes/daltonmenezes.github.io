@@ -18,3 +18,5 @@ export default function Menu({
     </ul>
   )
 }
+
+export { default as Item } from './Item'
