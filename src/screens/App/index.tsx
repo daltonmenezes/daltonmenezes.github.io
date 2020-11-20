@@ -7,7 +7,7 @@ export default function App(): ReactElement {
     <div className="App">
       <Header>
         <h1>DALTON MENEZES</h1>
-        <Menu>
+        <Menu horizontal withBullets>
           <Item>COLABORADORES</Item>
           <Item>LITERATURA</Item>
           <Item>SOFTWARE</Item>

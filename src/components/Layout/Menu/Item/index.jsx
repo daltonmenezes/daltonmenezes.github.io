@@ -5,7 +5,7 @@ import styles from './styles.module.sass'
 
 interface MenuItemProps extends LiHTMLAttributes<HTMLElement> {}
 
-export default function Menu({
+export default function MenuItem({
   className,
   children,
   ...rest
