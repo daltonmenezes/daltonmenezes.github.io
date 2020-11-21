@@ -11,12 +11,12 @@ export default function App(): ReactElement {
         <Title>DALTON MENEZES</Title>
 
         <Menu horizontal withBullets classNames={[styles.menu]}>
-          <Item>COLABORADORES</Item>
-          <Item>LITERATURA</Item>
-          <Item>SOFTWARE</Item>
-          <Item>DESIGN</Item>
-          <Item>SOBRE</Item>
-          <Item>CONTATO</Item>
+          <Item to="/supporters">COLABORADORES</Item>
+          <Item to="/literature">LITERATURA</Item>
+          <Item to="/software">SOFTWARE</Item>
+          <Item to="/design">DESIGN</Item>
+          <Item to="/about">SOBRE</Item>
+          <Item to="/contact">CONTATO</Item>
         </Menu>
       </Header>
     </div>
