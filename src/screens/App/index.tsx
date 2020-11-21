@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react'
-import Header from 'components/Layout/Header'
+import { Header, Title } from 'components/Layout'
 import Menu, { Item } from 'components/Layout/Menu'
 
 import styles from './styles.module.sass'
@@ -8,7 +8,8 @@ export default function App(): ReactElement {
   return (
     <div className="App">
       <Header classNames={[styles.header]}>
-        <h1>DALTON MENEZES</h1>
+        <Title>DALTON MENEZES</Title>
+
         <Menu horizontal withBullets classNames={[styles.menu]}>
           <Item>COLABORADORES</Item>
           <Item>LITERATURA</Item>
