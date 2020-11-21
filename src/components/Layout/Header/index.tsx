@@ -1,20 +1,18 @@
-import React, { HTMLAttributes, PropsWithChildren, ReactElement } from 'react'
-import join from 'utils/join'
+import React, { ReactElement } from 'react'
+import Tag, { ClientTagProps } from 'components/Layout/Tag'
 
 import styles from './styles.module.sass'
 
-interface HeaderProps extends HTMLAttributes<HTMLElement> {}
-
 export default function Header({
-  className,
+  classNames,
   children,
   ...rest
-}: PropsWithChildren<HeaderProps>): ReactElement {
-  const classes = join([styles.header, className])
+}: ClientTagProps): ReactElement {
+  const classes = [styles.header, classNames || '']
 
   return (
-    <header className={classes} {...rest}>
+    <Tag classNames={classes} tag="header" {...rest}>
       {children}
-    </header>
+    </Tag>
   )
 }

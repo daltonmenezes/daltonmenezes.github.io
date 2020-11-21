@@ -1,20 +1,18 @@
-import React, { LiHTMLAttributes, PropsWithChildren, ReactElement } from 'react'
-import join from 'utils/join'
+import React, { ReactElement } from 'react'
+import Tag, { ClientTagProps } from 'components/Layout/Tag'
 
 import styles from './styles.module.sass'
 
-interface MenuItemProps extends LiHTMLAttributes<HTMLElement> {}
-
 export default function MenuItem({
-  className,
+  classNames,
   children,
   ...rest
-}: PropsWithChildren<MenuItemProps>): ReactElement {
-  const classes = join([styles.menuItem, className])
+}: ClientTagProps): ReactElement {
+  const classes = [styles.menuItem, classNames || '']
 
   return (
-    <li className={classes} {...rest}>
+    <Tag classNames={classes} tag="li" {...rest}>
       {children}
-    </li>
+    </Tag>
   )
 }

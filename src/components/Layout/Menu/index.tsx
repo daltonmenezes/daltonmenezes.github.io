@@ -1,46 +1,46 @@
-import React, { HTMLAttributes, PropsWithChildren, ReactElement } from 'react'
+import React, { ReactElement } from 'react'
+import Tag, { ClientTagProps } from 'components/Layout/Tag'
 import { BulletDivider } from 'components/Layout/Dividers'
-import join from 'utils/join'
 
 import styles from './styles.module.sass'
 
-interface MenuProps extends HTMLAttributes<HTMLElement> {
+export interface MenuProps extends ClientTagProps {
   withBullets?: boolean
   horizontal?: boolean
 }
 
 export default function Menu({
-  className,
+  classNames,
   children,
   withBullets,
   horizontal,
   ...rest
-}: PropsWithChildren<MenuProps>): ReactElement {
-  const classes = join([
+}: MenuProps): ReactElement {
+  const classes = [
     styles.menu,
     horizontal ? styles.horizontal : '',
-    className,
-  ])
+    classNames || '',
+  ]
 
   function renderMenuChildrenWithDividers() {
     return React.Children.map(children, (child, index) => {
       if (index === 0 && horizontal) {
-        return <div className={styles.menuItemWrapper}>{child}</div>
+        return <Tag classNames={[styles.menuItemWrapper]}>{child}</Tag>
       }
 
       return (
-        <div className={styles.menuItemWrapper}>
+        <Tag classNames={[styles.menuItemWrapper]}>
           <BulletDivider />
           {child}
-        </div>
+        </Tag>
       )
     })
   }
 
   return (
-    <ul className={classes} {...rest}>
+    <Tag classNames={classes} tag="ul" {...rest}>
       {withBullets ? renderMenuChildrenWithDividers() : children}
-    </ul>
+    </Tag>
   )
 }
 

@@ -1,19 +1,17 @@
-import React, { HTMLAttributes, ReactElement } from 'react'
-import join from 'utils/join'
+import React, { ReactElement } from 'react'
+import Tag, { ClientTagProps } from 'components/Layout/Tag'
 
 import styles from './styles.module.sass'
 
-interface BulletDividerProps extends HTMLAttributes<HTMLSpanElement> {}
-
 export default function BulletDivider({
-  className,
+  classNames,
   ...rest
-}: BulletDividerProps): ReactElement {
-  const classes = join([styles.bulletDivider, className])
+}: ClientTagProps): ReactElement {
+  const classes = [styles.bulletDivider, classNames || '']
 
   return (
-    <span className={classes} {...rest}>
+    <Tag classNames={classes} tag="span" {...rest}>
       •
-    </span>
+    </Tag>
   )
 }
