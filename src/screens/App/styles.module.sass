@@ -1,4 +1,5 @@
-@import styles/animations
+@import 'styles/animations'
+@import 'styles/colors'
 
 .header, .menu
   margin-top: 5rem
@@ -10,6 +11,9 @@
   a
     margin: 0 1.5rem
     margin-bottom: 1.2rem
+    transition: .5s ease
+    &:hover
+      color: $activeColor
   li
     font-size: .9rem
     letter-spacing: .1em
