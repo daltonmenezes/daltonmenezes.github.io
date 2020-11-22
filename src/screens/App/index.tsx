@@ -2,6 +2,7 @@ import React, { ReactElement } from 'react'
 import { useMatchMedia } from 'hooks'
 import { Header, Title } from 'components/Layout'
 import Menu, { Item } from 'components/Layout/Menu'
+import AnimatedPatterns from 'components/AnimatedPatterns'
 
 import styles from './styles.module.sass'
 
@@ -26,6 +27,7 @@ export default function App(): ReactElement {
           <Item to="/contact">CONTATO</Item>
         </Menu>
       </Header>
+      <AnimatedPatterns />
     </div>
   )
 }
