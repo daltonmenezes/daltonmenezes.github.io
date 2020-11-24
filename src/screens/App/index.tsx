@@ -3,6 +3,7 @@ import { useMatchMedia, useI18n } from 'hooks'
 import { Header, Title } from 'components/Layout'
 import Menu, { Item } from 'components/Layout/Menu'
 import AnimatedPatterns from 'components/AnimatedPatterns'
+import LanguageSwitcher from 'components/LanguageSwitcher'
 
 import styles from './styles.module.sass'
 
@@ -22,6 +23,8 @@ export default function App(): ReactElement {
   return (
     <div className="App">
       <Header classNames={[styles.header]}>
+        <LanguageSwitcher />
+
         <Title>DALTON MENEZES</Title>
 
         <Menu
