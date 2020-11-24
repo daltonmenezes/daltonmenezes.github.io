@@ -8,8 +8,10 @@ import LanguageSwitcher from 'components/LanguageSwitcher'
 import styles from './styles.module.sass'
 
 export default function App(): ReactElement {
-  const matches = useMatchMedia('max-width: 500px')
   const { getAllMessages } = useI18n()
+  const matcheWidth = useMatchMedia('max-width: 500px')
+  const matcheHeight = useMatchMedia('max-height: 320px')
+  const matchMedia = matcheWidth && !matcheHeight
 
   const {
     supporters,
@@ -28,8 +30,8 @@ export default function App(): ReactElement {
         <Title>DALTON MENEZES</Title>
 
         <Menu
-          horizontal={!matches}
-          withBullets={!matches}
+          horizontal={!matchMedia}
+          withBullets={!matchMedia}
           classNames={[styles.menu]}
         >
           <Item to="/supporters">{supporters}</Item>
