@@ -1,0 +1,22 @@
+{
+  "pt_br": {
+    "pt_br": "Português",
+    "en_us": "English",
+    "supporters": "Colaboradores",
+    "literature": "Literatura",
+    "software": "Software",
+    "design": "Design",
+    "about": "Sobre",
+    "contact": "Contato"
+  },
+  "en_us": {
+    "en_us": "English",
+    "pt_br": "Português",
+    "supporters": "Supporters",
+    "literature": "Literature",
+    "software": "Software",
+    "design": "Design",
+    "about": "About",
+    "contact": "Contact"
+  }
+}
