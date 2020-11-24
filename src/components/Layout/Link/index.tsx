@@ -7,7 +7,7 @@ export default function Link({
   ...rest
 }: PropsWithChildren<LinkProps>): ReactElement {
   return (
-    <HyperLink to={to} {...rest}>
+    <HyperLink to={to} {...rest} replace>
       {children}
     </HyperLink>
   )
