@@ -1,0 +1,33 @@
+@import 'styles/colors'
+@import 'styles/animations'
+
+.container
+  top: 0
+  left: 0
+  width: 100vw
+  height: 100vh
+  background-color: #101010e3
+  z-index: 99999
+  overflow-x: hidden 
+  overflow-y: auto
+  position: fixed
+
+.close
+  top: 1rem
+  right: 3vw
+  position: fixed
+  transition: .5s ease
+  &:hover
+    color: $activeColor
+
+.showOnMobile
+  animation: showOnMobile .5s ease-in-out
+
+.hideOnMobile
+  animation: hideOnMobile .5s ease-in-out forwards
+
+.showOnLargeScreens
+  animation: showOnLargeScreens .5s ease-in-out
+
+.hideOnLargeScreens
+  animation: hideOnLargeScreens .5s ease-in-out forwards
