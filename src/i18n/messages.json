@@ -2,21 +2,39 @@
   "pt_br": {
     "pt_br": "Português",
     "en_us": "English",
-    "supporters": "Colaboradores",
+    "supporters": "{{ supporter }}es",
     "literature": "Literatura",
     "software": "Software",
     "design": "Design",
     "about": "Sobre",
-    "contact": "Contato"
+    "contact": "Contato",
+    "sponsor": "Patrocinador",
+    "sponsors": "{{ sponsor }}es",
+    "supporter": "Colaborador",
+    "become_a": "Torne-se um",
+    "become_supporter": "{{ become_a }} {{ supporter }}",
+    "become_sponsor": "{{ become_a }} {{ sponsor }}",
+    "thank_you": "Sou muito grato a todos que acreditam no meu trabalho, que estão ou já estiveram me apoiando. Muito obrigado a todos vocês, vocês fazem a diferença! E se você ainda não for um {{ supporter }}, por favor, considere se tornar um.",
+    "active": "Ativos",
+    "inactive": "Inativos"
   },
   "en_us": {
     "en_us": "English",
     "pt_br": "Português",
-    "supporters": "Supporters",
+    "supporters": "{{supporter}}s",
     "literature": "Literature",
     "software": "Software",
     "design": "Design",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "sponsor": "Sponsor",
+    "sponsors": "{{sponsor}}s",
+    "supporter": "Supporter",
+    "become_a": "Become a",
+    "become_supporter": "{{ become_a }} {{ supporter }}",
+    "become_sponsor": "{{ become_a }} {{ sponsor }}",
+    "thank_you": "I'm very grateful to everyone who believes in my work, who is or has been supporting me. Thank you so much to all of you, you make the difference! And if you are not yet a {{ supporter }}, please consider becoming one.",
+    "active": "Active",
+    "inactive": "Inactive"
   }
 }

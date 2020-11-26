@@ -21,6 +21,15 @@ namespace I18n {
       design: string
       about: string
       contact: string
+      sponsor: string
+      sponsors: string
+      supporter: string
+      become_a: string
+      become_supporter: string
+      become_sponsor: string
+      thank_you: string
+      active: string
+      inactive: string
     }
     en_us: {
       en_us: string
@@ -31,6 +40,15 @@ namespace I18n {
       design: string
       about: string
       contact: string
+      sponsor: string
+      sponsors: string
+      supporter: string
+      become_a: string
+      become_supporter: string
+      become_sponsor: string
+      thank_you: string
+      active: string
+      inactive: string
     }
   }
 
