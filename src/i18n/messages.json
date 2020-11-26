@@ -16,7 +16,13 @@
     "become_sponsor": "{{ become_a }} {{ sponsor }}",
     "thank_you": "Sou muito grato a todos que acreditam no meu trabalho, que estão ou já estiveram me apoiando. Muito obrigado a todos vocês, vocês fazem a diferença! E se você ainda não for um {{ supporter }}, por favor, considere se tornar um.",
     "active": "Ativos",
-    "inactive": "Inativos"
+    "inactive": "Inativos",
+    "title": "Título",
+    "year": "Ano",
+    "blurb": "Sinopse",
+    "genre": "Gênero",
+    "short_story": "Conto",
+    "aphorisms": "Aforismos"
   },
   "en_us": {
     "en_us": "English",
@@ -35,6 +41,12 @@
     "become_sponsor": "{{ become_a }} {{ sponsor }}",
     "thank_you": "I'm very grateful to everyone who believes in my work, who is or has been supporting me. Thank you so much to all of you, you make the difference! And if you are not yet a {{ supporter }}, please consider becoming one.",
     "active": "Active",
-    "inactive": "Inactive"
+    "inactive": "Inactive",
+    "title": "Title",
+    "year": "Year",
+    "blurb": "Blurb",
+    "genre": "Genre",
+    "short_story": "Short story",
+    "aphorisms": "Aphorisms"
   }
 }

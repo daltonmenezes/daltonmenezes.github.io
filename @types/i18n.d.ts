@@ -30,6 +30,12 @@ namespace I18n {
       thank_you: string
       active: string
       inactive: string
+      title: string
+      year: string
+      blurb: string
+      genre: string
+      short_story: string
+      aphorisms: string
     }
     en_us: {
       en_us: string
@@ -49,6 +55,12 @@ namespace I18n {
       thank_you: string
       active: string
       inactive: string
+      title: string
+      year: string
+      blurb: string
+      genre: string
+      short_story: string
+      aphorisms: string
     }
   }
 
