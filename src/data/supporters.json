@@ -1,0 +1,9 @@
+[
+  { "name": "Wendell Christian", "URL": "https://www.linkedin.com/in/wendellchristian", "image": "", "active": true },
+  { "name": "betarena", "URL": "https://www.betarena.com/", "image": "", "active": true },
+  { "name": "Diego Rizzo", "URL": "https://www.instagram.com/diegorizzo86/", "image": "", "active": false },
+  { "name": "Danilo Siqueira", "URL": "https://www.nimbuz.io/", "image": "", "active": false },
+  { "name": "Gabriela Pimenta", "URL": "https://www.instagram.com/pimenta.gabi/", "image": "", "active": false },
+  { "name": "Isabella Felix", "URL": "https://dribbble.com/isabellafelix", "image": "", "active": false },
+  { "name": "Douglas Souza Silva", "URL": "https://www.instagram.com/douglas.ss250/", "image": "", "active": false }
+]
