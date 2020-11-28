@@ -36,17 +36,19 @@ export default function Supporters(): ReactElement {
 
   return (
     <ScreenOverlay classNames={[styles.container, matchedStyle]}>
-      <SponsorsList />
+      <section className={styles.supportersContainer}>
+        <SponsorsList />
 
-      <HorizontalRule />
+        <HorizontalRule />
 
-      <SupportersList />
+        <SupportersList />
 
-      <HorizontalRule />
+        <HorizontalRule />
 
-      <p>{getMessage('thank_you')}</p>
+        <p>{getMessage('thank_you')}</p>
 
-      {renderBecomeButtons()}
+        {renderBecomeButtons()}
+      </section>
     </ScreenOverlay>
   )
 }

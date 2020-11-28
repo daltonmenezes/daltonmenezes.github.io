@@ -1,7 +1,12 @@
 @import 'styles/colors'
+@import 'styles/animations'
 
 .container
   padding: 5rem 2.5rem
+  .supportersContainer
+    margin: 0 auto
+    max-width: 80%
+    animation: fade 2s ease-in-out
   h1
     margin: 1rem 0
     text-transform: uppercase
@@ -27,3 +32,5 @@
   .buttonsContainer
     grid-template-columns: 1fr
     gap: unset
+  .supportersContainer
+    max-width: 100%
