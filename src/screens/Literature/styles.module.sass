@@ -25,6 +25,7 @@
 .bookContainer
   width: 306px
   height: 489px
+  transition: .5s ease
   position: relative
   img
     width: inherit
@@ -39,10 +40,14 @@
   &:nth-child(3)
     opacity: 0
     animation: fade 1s linear .8s forwards
-
-  &:hover > .bookContent
-    opacity: 1
-    visibility: visible
+  
+  &:hover
+    transform: scale(1.2)
+    box-shadow: 5px 5px 30px black
+    z-index: 100
+    > .bookContent
+      opacity: 1
+      visibility: visible
 
 .bookContent
   opacity: 0
@@ -51,6 +56,7 @@
   left: 0
   width: 100%
   height: 100%
+  border: 5px solid black
   display: flex
   flex-flow: column wrap
   align-items: center
@@ -85,5 +91,9 @@
 .matchMedia
   .booksSection
     gap: 1rem
+  .bookContainer
+    &:hover
+      transform: unset
+      box-shadow: unset
   .patterns
     opacity: 1
