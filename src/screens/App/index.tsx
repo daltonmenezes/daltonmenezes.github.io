@@ -37,7 +37,9 @@ export default function App(): ReactElement {
           <Item to="/supporters">{supporters}</Item>
           <Item to="/literature">{literature}</Item>
           <Item to="/software">{software}</Item>
-          <Item to="/design">{design}</Item>
+          <Item to="https://en.99designs.com.br/profiles/daltonmenezes">
+            {design}
+          </Item>
           <Item to="/about">{about}</Item>
           <Item to="/contact">{contact}</Item>
         </Menu>
