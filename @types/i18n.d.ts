@@ -36,6 +36,16 @@ namespace I18n {
       genre: string
       short_story: string
       aphorisms: string
+      yout_description: string
+      aura_description: string
+      netflix_list_exporter_description: string
+      electron_screen_recorder_description: string
+      uni_description: string
+      recipes_for_uni_description: string
+      omeletetabs_description: string
+      hyperinit_description: string
+      pepper_description: string
+      see_more_projects: string
     }
     en_us: {
       en_us: string
@@ -61,6 +71,16 @@ namespace I18n {
       genre: string
       short_story: string
       aphorisms: string
+      yout_description: string
+      aura_description: string
+      netflix_list_exporter_description: string
+      electron_screen_recorder_description: string
+      uni_description: string
+      recipes_for_uni_description: string
+      omeletetabs_description: string
+      hyperinit_description: string
+      pepper_description: string
+      see_more_projects: string
     }
   }
 

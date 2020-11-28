@@ -1,0 +1,54 @@
+@import 'styles/colors'
+@import 'styles/animations'
+
+.container
+  padding: 5rem 2.5rem 0 2.5rem
+  
+.softwaresContainer
+  display: flex
+  flex-flow: row wrap
+  align-items: center
+  justify-content: center
+  gap: 1.5rem
+  margin: 0 auto
+  max-width: 80%
+  animation: fade 2s ease-in-out
+
+  a
+    display: contents
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    transition: .5s ease
+    &:hover
+      color: $activeColor
+  
+  .softwareItems
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 300px
+    height: 300px
+    h1
+      text-align: center
+      margin: 1rem 0
+    p
+      text-align: center
+    img
+      width: 100px
+      height: 100px
+
+.buttonContainer
+  display: flex
+  align-items: center
+  justify-content: center
+  padding-bottom: 2rem
+  a
+    padding: 1rem 6rem
+
+.matchMedia
+  .softwareItems
+    height: auto
+    margin-bottom: 1rem
+    h1
+      width: 80vw
