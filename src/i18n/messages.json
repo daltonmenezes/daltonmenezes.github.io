@@ -69,6 +69,6 @@
     "hyperinit_description": "The ultimate and most complete extension to initialize commands before and after Hyper terminal starts.",
     "pepper_description": "A free and open source simple game that looks like Flappy Bird written in HTML5 and JavaScript.",
     "see_more_projects": "See more projects",
-    "bio": "👋 Hi, I'm Dalton. I have {YEARS_CODING} years of experience in software development. Also, I'm a writer and designer. \n\nCurrently, I have focused a lot on the Javascript ecosystem. I have projects in ReactJS, React Native, Node, Electron and vanilla Javascript, but I am always open to discover new things. \n\nI'm a lover of the open source community and I contribute to it whenever possible. 💜"
+    "bio": "👋 Hi, I'm Dalton. I have {YEARS_CODING} years of experience in software development. Also, I'm a writer and designer. \n\nCurrently, I have focused a lot on the Javascript ecosystem. I have projects in ReactJS, React Native, Node, Electron and vanilla Javascript, but I'm always open to discover new things. \n\nI'm a lover of the open source community and I contribute to it whenever possible. 💜"
   }
 }
