@@ -11,9 +11,16 @@ export default function useMatchMedia(contidtion: string): boolean {
     const matchMedia = window.matchMedia(`(${contidtion})`)
 
     setIsMatched(matchMedia.matches)
-    matchMedia.addEventListener('change', listener)
 
-    return () => matchMedia.removeEventListener('change', listener)
+    try {
+      matchMedia.addEventListener('change', listener)
+
+      return () => matchMedia.removeEventListener('change', listener)
+    } catch (_) {
+      matchMedia.addListener(listener)
+
+      return () => matchMedia.removeListener(listener)
+    }
   }, [])
 
   return isMatched
