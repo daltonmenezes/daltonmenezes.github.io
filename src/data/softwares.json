@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Aura Theme",
+    "i18n_key": "aura_description",
+    "URL": "https://github.com/daltonmenezes/aura-theme",
+    "image": "https://raw.githubusercontent.com/daltonmenezes/assets/master/images/icons/aura-theme.png"
+  },
+  {
+    "name": "YoutPlayer",
+    "i18n_key": "yout_description",
+    "URL": "https://youtplayer.github.io/",
+    "image": "https://raw.githubusercontent.com/daltonmenezes/assets/master/images/icons/youtplayer.png"
+  },
+  {
+    "name": "Netflix List Exporter",
+    "i18n_key": "netflix_list_exporter_description",
+    "URL": "https://github.com/daltonmenezes/netflix-list-exporter",
+    "image": "https://raw.githubusercontent.com/daltonmenezes/assets/master/images/icons/netflix-list-exporter-logo.png"
+  },
+  {
+    "name": "Electron Screen Recorder",
+    "i18n_key": "electron_screen_recorder_description",
+    "URL": "https://github.com/daltonmenezes/electron-screen-recorder",
+    "image": "https://raw.githubusercontent.com/daltonmenezes/assets/master/images/icons/electron-screen-recorder.png"
+  },
+  {
+    "name": "UNI",
+    "i18n_key": "uni_description",
+    "URL": "https://github.com/daltonmenezes/uni",
+    "image": "https://raw.githubusercontent.com/daltonmenezes/assets/master/images/icons/uni.png"
+  },
+  {
+    "name": "Recipes for UNI",
+    "i18n_key": "recipes_for_uni_description",
+    "URL": "https://github.com/uni-linux/recipes",
+    "image": "https://raw.githubusercontent.com/daltonmenezes/assets/master/images/icons/recipes-uni.png"
+  },
+  {
+    "name": "hyper-init",
+    "i18n_key": "hyperinit_description",
+    "URL": "https://github.com/daltonmenezes/hyper-init",
+    "image": "https://raw.githubusercontent.com/daltonmenezes/assets/master/images/icons/hyper-init.png"
+  },
+  {
+    "name": "Pepper - The Chicken",
+    "i18n_key": "pepper_description",
+    "URL": "https://daltonmenezes.github.io/pepper-the-chicken/",
+    "image": "https://raw.githubusercontent.com/daltonmenezes/assets/master/images/icons/pepper-the-chicken.png"
+  },
+  {
+    "name": "Omelete Tabs",
+    "i18n_key": "omeletetabs_description",
+    "URL": "https://github.com/daltonmenezes/omelete-tabs",
+    "image": "https://raw.githubusercontent.com/daltonmenezes/assets/master/images/icons/omelete-tabs.png"
+  }
+]
