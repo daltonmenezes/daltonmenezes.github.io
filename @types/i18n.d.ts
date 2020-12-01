@@ -46,6 +46,7 @@ namespace I18n {
       hyperinit_description: string
       pepper_description: string
       see_more_projects: string
+      bio: string
     }
     en_us: {
       en_us: string
@@ -81,6 +82,7 @@ namespace I18n {
       hyperinit_description: string
       pepper_description: string
       see_more_projects: string
+      bio: string
     }
   }
 
