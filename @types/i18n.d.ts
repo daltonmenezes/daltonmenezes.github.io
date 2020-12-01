@@ -23,6 +23,7 @@ namespace I18n {
       contacts: string
       sponsor: string
       sponsors: string
+      sponsorship: string
       supporter: string
       become_a: string
       become_supporter: string
@@ -59,6 +60,7 @@ namespace I18n {
       contacts: string
       sponsor: string
       sponsors: string
+      sponsorship: string
       supporter: string
       become_a: string
       become_supporter: string

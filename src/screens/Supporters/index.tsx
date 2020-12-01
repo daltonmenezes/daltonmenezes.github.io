@@ -24,7 +24,9 @@ export default function Supporters(): ReactElement {
         </Button>
 
         <Button
-          to="mailto:daltonmenezes@outlook.com?subject=sponsorship"
+          to={`mailto:daltonmenezes@outlook.com?subject=${getMessage(
+            'sponsorship'
+          )}`}
           classNames={[styles.button, matchedStyle]}
         >
           <Handshake size="1.2rem" />
