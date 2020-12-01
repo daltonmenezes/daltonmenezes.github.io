@@ -19,7 +19,7 @@ export default function App(): ReactElement {
     software,
     design,
     about,
-    contact,
+    contacts,
   } = getAllMessages()
 
   return (
@@ -41,7 +41,7 @@ export default function App(): ReactElement {
             {design}
           </Item>
           <Item to="/about">{about}</Item>
-          <Item to="/contact">{contact}</Item>
+          <Item to="/contacts">{contacts}</Item>
         </Menu>
       </Header>
       <AnimatedPatterns />

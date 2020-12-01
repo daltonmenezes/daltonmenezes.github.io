@@ -20,7 +20,7 @@ namespace I18n {
       software: string
       design: string
       about: string
-      contact: string
+      contacts: string
       sponsor: string
       sponsors: string
       supporter: string
@@ -56,7 +56,7 @@ namespace I18n {
       software: string
       design: string
       about: string
-      contact: string
+      contacts: string
       sponsor: string
       sponsors: string
       supporter: string
