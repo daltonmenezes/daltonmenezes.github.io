@@ -6,6 +6,12 @@
     "image": "https://raw.githubusercontent.com/daltonmenezes/assets/master/images/icons/aura-theme.png"
   },
   {
+    "name": "cra-template-good-start",
+    "i18n_key": "cra_template_good_start_description",
+    "URL": "https://github.com/daltonmenezes/cra-template-good-start",
+    "image": "https://raw.githubusercontent.com/daltonmenezes/assets/master/images/icons/cra-template-good-start.png"
+  },
+  {
     "name": "YoutPlayer",
     "i18n_key": "yout_description",
     "URL": "https://youtplayer.github.io/",
