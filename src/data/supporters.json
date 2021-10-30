@@ -1,5 +1,5 @@
 [
-  { "name": "Wendell Christian", "URL": "https://www.linkedin.com/in/wendellchristian", "image": "", "active": true },
+  { "name": "Wendell Christian", "URL": "https://www.linkedin.com/in/wendellchristian", "image": "", "active": false },
   { "name": "betarena", "URL": "https://www.betarena.com/", "image": "", "active": false },
   { "name": "Diego Rizzo", "URL": "https://www.instagram.com/diegorizzo86/", "image": "", "active": false },
   { "name": "Danilo Siqueira", "URL": "https://www.nimbuz.io/", "image": "", "active": false },
