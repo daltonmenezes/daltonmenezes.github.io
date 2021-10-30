@@ -11,7 +11,6 @@
   },
   "extends": [
     "prettier",
-    "prettier/react",
     "plugin:prettier/recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended"
@@ -30,9 +29,9 @@
     }
   },
   "plugins": [
-    "prettier",
     "react",
-    "@typescript-eslint"
+    "@typescript-eslint",
+    "prettier"
   ],
   "rules": {
     "react/prop-types": 0,

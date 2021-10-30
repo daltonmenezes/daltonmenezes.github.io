@@ -1,4 +1,8 @@
-import React, { HTMLAttributes, PropsWithChildren, ReactElement } from 'react'
+import React, {
+  HTMLAttributes,
+  PropsWithChildren,
+  ReactElement,
+} from 'react'
 import join from 'utils/join'
 
 export interface TagProps extends HTMLAttributes<HTMLOrSVGElement> {

@@ -2,7 +2,10 @@ import React, { ReactElement } from 'react'
 import { ScreenOverlay, Button } from 'components/Layout'
 import { HorizontalRule } from 'components/Layout/Dividers'
 import { useI18n, useMatchMedia } from 'hooks'
-import { FaPatreon as Patreon, FaHandshake as Handshake } from 'react-icons/fa'
+import {
+  FaPatreon as Patreon,
+  FaHandshake as Handshake,
+} from 'react-icons/fa'
 import { SponsorsList, SupportersList } from './List'
 
 import styles from './styles.module.sass'

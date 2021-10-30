@@ -25,7 +25,9 @@ export default function Menu({
   function renderMenuChildrenWithDividers() {
     return React.Children.map(children, (child, index) => {
       if (index === 0 && horizontal) {
-        return <Tag classNames={[styles.menuItemWrapper]}>{child}</Tag>
+        return (
+          <Tag classNames={[styles.menuItemWrapper]}>{child}</Tag>
+        )
       }
 
       return (

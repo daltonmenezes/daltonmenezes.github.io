@@ -13,7 +13,9 @@ export default function SupportersList(): ReactElement {
   const { getMessage } = useI18n()
 
   function renderInactiveSupporters() {
-    const filteredSupporters = supportersData.filter(({ active }) => !active)
+    const filteredSupporters = supportersData.filter(
+      ({ active }) => !active
+    )
 
     return filteredSupporters.map(({ name }, index) => {
       const isLastItem = index + 1 === filteredSupporters.length
@@ -28,7 +30,9 @@ export default function SupportersList(): ReactElement {
   }
 
   function renderActiveSupporters() {
-    const filteredSupporters = supportersData.filter(({ active }) => active)
+    const filteredSupporters = supportersData.filter(
+      ({ active }) => active
+    )
 
     return filteredSupporters.map(({ name, URL }, index) => {
       const isLastItem = index + 1 === filteredSupporters.length
