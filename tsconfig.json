@@ -18,9 +18,13 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react",
+    "jsx": "react-jsx",
     "baseUrl": "./src",
-    "plugins": [{ "name": "typescript-plugin-css-modules" }],
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules"
+      }
+    ],
     "typeRoots": [
       "./node_modules/@types",
       "./@types"
@@ -29,5 +33,5 @@
   "include": [
     "./src",
     "./@types"
-  ],
+  ]
 }
