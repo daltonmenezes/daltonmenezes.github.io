@@ -30,4 +30,6 @@ jobs:
       - name: Publish
         working-directory: .
         run: yarn deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

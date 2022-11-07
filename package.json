@@ -19,7 +19,8 @@
     "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy\" && git subtree push --prefix out origin gh-pages",
+    "predeploy": "git config user.email \"daltonmenezes@outlook.com\" && git config user.name \"Dalton Menezes\"",
+    "deploy": "next build && next export && touch out/.nojekyll && git add -f out/ && git commit -m \"ci: deploy changes\" && git subtree push --prefix out origin gh-pages",
     "i18n:build:types": "nodemon --watch src/i18n/messages.json --exec 'node ./i18n-types-generator.js'"
   },
   "husky": {
