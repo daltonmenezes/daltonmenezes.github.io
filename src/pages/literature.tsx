@@ -1,5 +1,3 @@
-import Image from 'next/future/image'
-
 import { ExternalLink, Head, HorizontalRule, PageOverlay } from 'components'
 import { meta } from 'shared/constants'
 import booksData from 'data/books.json'
@@ -35,13 +33,12 @@ export default function Literature() {
 
             return (
               <LiteratureItem key={pdf} tabIndex={0}>
-                <Image
+                <img
                   src={image}
                   alt=""
                   width={306}
                   height={489}
-                  placeholder="blur"
-                  blurDataURL={image}
+                  loading="lazy"
                 />
 
                 <BookContent>

@@ -1,5 +1,4 @@
 import { FaGithub as GitHub } from 'react-icons/fa'
-import Image from 'next/future/image'
 
 import { ExternalLink, Head, HorizontalRule, PageOverlay } from 'components'
 import softwaresData from 'data/softwares.json'
@@ -35,13 +34,12 @@ export default function Software() {
             return (
               <SoftwareItem key={i18n_key}>
                 <ExternalLink href={URL}>
-                  <Image
+                  <img
                     src={image}
                     alt=""
                     width={100}
                     height={100}
-                    placeholder="blur"
-                    blurDataURL={image}
+                    loading="lazy"
                   />
 
                   <h1>{name}</h1>

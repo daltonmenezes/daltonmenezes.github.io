@@ -1,5 +1,3 @@
-import Image from 'next/future/image'
-
 import { Head, PageOverlay } from 'components'
 import { getYearsCoding } from 'shared/utils'
 import { meta } from 'shared/constants'
@@ -27,13 +25,12 @@ export default function About() {
 
       <AboutContainer>
         <AboutContent>
-          <Image
+          <img
             src={meta.avatar}
             alt=""
             width={200}
             height={200}
-            placeholder="blur"
-            blurDataURL={meta.avatar}
+            loading="lazy"
           />
           <p>{renderBIO()}</p>
         </AboutContent>
