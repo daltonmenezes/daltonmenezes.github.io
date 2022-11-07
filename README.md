@@ -10,10 +10,10 @@
 
 # Sections
 
-- [Supporters](https://daltonmenezes.github.io/#/supporters)
-- [Literature](https://daltonmenezes.github.io/#/literature)
-- [Software](https://daltonmenezes.github.io/#/software)
+- [Sponsorship](https://daltonmenezes.github.io/sponsorship)
+- [Literature](https://daltonmenezes.github.io/literature)
+- [Software](https://daltonmenezes.github.io/software)
 - [Design](https://en.99designs.com.br/profiles/daltonmenezes)
-- [About](https://daltonmenezes.github.io/#/about)
-- [Contacts](https://daltonmenezes.github.io/#/contacts)
+- [About](https://daltonmenezes.github.io/about)
+- [Contacts](https://daltonmenezes.github.io/contacts)
 

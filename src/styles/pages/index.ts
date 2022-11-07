@@ -1,0 +1,6 @@
+export * from './sponsorship'
+export * from './literature'
+export * from './contacts'
+export * from './software'
+export * from './about'
+export * from './page'
