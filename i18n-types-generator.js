@@ -8,7 +8,10 @@ try {
   const messagesJSON = readFileSync(
     resolve(__dirname, 'src', 'i18n', 'messages.json')
   ).toString()
-  const i18nTS = readFileSync(resolve(__dirname, '@types', 'i18n.d.ts')).toString()
+
+  const i18nTS = readFileSync(
+    resolve(__dirname, '@types', 'i18n.d.ts')
+  ).toString()
 
   let typedMessages = messagesJSON.replace(/(:.*").*(")/g, ': string')
   typedMessages = typedMessages.replace(/(:.*[^"])(true|false)/g, ': boolean')
@@ -18,25 +21,23 @@ try {
 
   prettier.resolveConfig(prettierConfig).then((finalOptions) => {
     const initialOptions = { tabWidth: 0, semi: true, parser: 'typescript' }
-    
+
     const { formatted: formattedI18nTS } = prettier.formatWithCursor(
       i18nTS,
       initialOptions
     )
-    
+
     const { formatted: formattedTypedMessages } = prettier.formatWithCursor(
       typedMessages,
       initialOptions
     )
 
-    const I18nDefinitionScope = /(export type I18nDefinition = {)([\s\S]*)(};\n}\S)/im
-    const isI18nDefinitionAlreadyExistsInI18nTSFile = I18nDefinitionScope.test(
-      formattedI18nTS
-    )
+    const I18nDefinitionScope =
+      /(export type I18nDefinition = {)([\s\S]*)(};\n}\S)/im
+    const isI18nDefinitionAlreadyExistsInI18nTSFile =
+      I18nDefinitionScope.test(formattedI18nTS)
 
-    const {
-      formatted: finalContentToI18nTSFile,
-    } = prettier.formatWithCursor(
+    const { formatted: finalContentToI18nTSFile } = prettier.formatWithCursor(
       isI18nDefinitionAlreadyExistsInI18nTSFile
         ? formattedI18nTS.replace(I18nDefinitionScope, formattedTypedMessages)
         : `${formattedI18nTS.slice(

@@ -1,26 +1,27 @@
-import React, { useState, useEffect, ReactElement } from 'react'
-import Menu, { Item } from 'components/Layout/Menu'
-import useI18n, { Language } from 'hooks/useI18n'
+import { useState, useEffect } from 'react'
 
-import styles from './styles.module.sass'
+import { useI18n, Language } from 'hooks'
+import { Separator } from 'components'
+
+import { Item, Menu } from './styles'
 
 interface LanguageItem {
   label: string
   language: Language
 }
 
-export default function LanguageSwitcher(): ReactElement {
-  const [languages, setLanguages] = useState<LanguageItem[]>([])
+export function LanguageSwitcher() {
+  const [languages, updateLanguages] = useState<LanguageItem[]>([])
 
   const {
+    getMessage,
+    updateLanguage,
     getCurrentLanguage,
     getAvailableLanguages,
-    getMessage,
-    setLanguage,
   } = useI18n()
 
   useEffect(() => {
-    setLanguages(
+    updateLanguages(
       getAvailableLanguages()?.map((language) => ({
         label: getMessage(language),
         language,
@@ -28,21 +29,30 @@ export default function LanguageSwitcher(): ReactElement {
     )
   }, [])
 
-  function isActive(language: string): boolean {
+  function isActive(language: string) {
     return getCurrentLanguage() === language
   }
 
   return (
-    <Menu horizontal withBullets classNames={[styles.menu]}>
-      {languages.map(({ label, language }) => (
-        <Item
-          key={language}
-          classNames={[isActive(language) ? 'active' : '']}
-          onClick={() => setLanguage(language)}
-        >
-          {label}
-        </Item>
-      ))}
+    <Menu>
+      {languages.map((languageItem, index) => {
+        const { label, language } = languageItem
+        const isLastIndex = languages.length === index + 1
+        const isCurrentLanguage = isActive(language)
+
+        return (
+          <Item
+            key={language}
+            active={isCurrentLanguage}
+            tabIndex={isCurrentLanguage ? -1 : 0}
+            onClick={() => updateLanguage(language)}
+          >
+            <span>{label}</span>
+
+            {!isLastIndex && <Separator keepBulletOnMobile />}
+          </Item>
+        )
+      })}
     </Menu>
   )
 }

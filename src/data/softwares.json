@@ -6,10 +6,28 @@
     "image": "https://raw.githubusercontent.com/daltonmenezes/assets/master/images/icons/aura-theme.png"
   },
   {
-    "name": "cra-template-good-start",
-    "i18n_key": "cra_template_good_start_description",
-    "URL": "https://github.com/daltonmenezes/cra-template-good-start",
-    "image": "https://raw.githubusercontent.com/daltonmenezes/assets/master/images/icons/cra-template-good-start.png"
+    "name": "Electron Router DOM",
+    "i18n_key": "electron_router_dom_description",
+    "URL": "https://github.com/daltonmenezes/electron-router-dom",
+    "image": "https://github.com/daltonmenezes/electron-router-dom/raw/main/docs/images/undraw_the_world_is_mine_re_j5cr.svg"
+  },
+  {
+    "name": "Electron App",
+    "i18n_key": "electron_app_description",
+    "URL": "https://github.com/daltonmenezes/electron-app",
+    "image": "https://github.com/daltonmenezes/electron-app/raw/main/docs/images/bullet.svg"
+  },
+  {
+    "name": "Discord Guardian Action",
+    "i18n_key": "discord_guardian_action_description",
+    "URL": "https://github.com/daltonmenezes/discord-guardian-action",
+    "image": "https://github.com/daltonmenezes/discord-guardian-action/raw/main/logo.svg"
+  },
+  {
+    "name": "Discord Malicious Domains",
+    "i18n_key": "discord_malicious_domains_description",
+    "URL": "https://github.com/daltonmenezes/discord-malicious-domains",
+    "image": "https://github.com/daltonmenezes/discord-guardian-action/raw/main/logo.svg"
   },
   {
     "name": "YoutPlayer",
