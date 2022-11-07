@@ -1,6 +1,13 @@
 import { FaGithub as GitHub } from 'react-icons/fa'
 
-import { ExternalLink, Head, HorizontalRule, PageOverlay } from 'components'
+import {
+  Head,
+  Image,
+  PageOverlay,
+  ExternalLink,
+  HorizontalRule,
+} from 'components'
+
 import softwaresData from 'data/softwares.json'
 import { links, meta } from 'shared/constants'
 import { useI18n } from 'hooks'
@@ -34,7 +41,7 @@ export default function Software() {
             return (
               <SoftwareItem key={i18n_key}>
                 <ExternalLink href={URL}>
-                  <img
+                  <Image
                     src={image}
                     alt=""
                     width={100}

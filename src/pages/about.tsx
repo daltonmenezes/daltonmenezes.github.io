@@ -1,4 +1,4 @@
-import { Head, PageOverlay } from 'components'
+import { Head, Image, PageOverlay } from 'components'
 import { getYearsCoding } from 'shared/utils'
 import { meta } from 'shared/constants'
 import { useI18n } from 'hooks'
@@ -25,7 +25,7 @@ export default function About() {
 
       <AboutContainer>
         <AboutContent>
-          <img
+          <Image
             src={meta.avatar}
             alt=""
             width={200}

@@ -3,6 +3,8 @@ import { meta } from 'shared/constants'
 import booksData from 'data/books.json'
 import { useI18n } from 'hooks'
 
+import { Image } from 'components'
+
 import {
   BookContent,
   BookBlurbLabel,
@@ -33,7 +35,7 @@ export default function Literature() {
 
             return (
               <LiteratureItem key={pdf} tabIndex={0}>
-                <img
+                <Image
                   src={image}
                   alt=""
                   width={306}

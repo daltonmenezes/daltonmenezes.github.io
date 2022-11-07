@@ -22,4 +22,14 @@ export const createKeyframes = (keyframes: typeof Keyframes) => ({
       transform: 'translateY(0)',
     },
   }),
+
+  spin: keyframes({
+    from: {
+      transform: 'rotate(0deg)',
+    },
+
+    to: {
+      transform: 'rotate(360deg)',
+    },
+  }),
 })

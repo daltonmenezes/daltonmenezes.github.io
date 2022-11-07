@@ -11,6 +11,7 @@ export const { styled, css, globalCss, getCssText, keyframes, theme, config } =
         'text-support': '#909090',
         'accent-primary': '#00d4a4',
         'accent-secondary': '#b764ff',
+        placeholder: '#7C7C8A',
 
         'text-gradient':
           '-webkit-linear-gradient(0deg, $accent-primary 0%, $accent-secondary 100%)',

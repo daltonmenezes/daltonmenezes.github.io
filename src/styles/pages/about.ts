@@ -20,7 +20,7 @@ export const AboutContent = styled(PageContent, {
     whiteSpace: 'break-spaces',
   },
 
-  img: {
+  'img, div': {
     width: 200,
     height: 200,
     borderRadius: '50%',
@@ -29,7 +29,7 @@ export const AboutContent = styled(PageContent, {
   '@bp4': {
     display: 'inline-block',
 
-    img: {
+    'img, div': {
       margin: '-1.5rem 2rem 1rem 0',
       float: 'left',
     },
