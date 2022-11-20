@@ -1,5 +1,11 @@
 [
   {
+    "name": "Interprocess",
+    "i18n_key": "interprocess_description",
+    "URL": "https://daltonmenezes.github.io/interprocess",
+    "image": "https://user-images.githubusercontent.com/1149845/202180667-72aa7c0f-af32-4bc6-8cb0-7782fde0a3fe.svg"
+  },
+  {
     "name": "Aura Theme",
     "i18n_key": "aura_description",
     "URL": "https://github.com/daltonmenezes/aura-theme",
