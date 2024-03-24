@@ -1,5 +1,5 @@
 <h1 align="center">
-<a href="https://daltonmenezes.github.io">daltonmenezes.github.io</a>
+<a href="https://daltonmenezes.com">daltonmenezes.com</a>
 </h1>
 
 <p align="center">
@@ -10,10 +10,10 @@
 
 # Sections
 
-- [Sponsorship](https://daltonmenezes.github.io/sponsorship)
-- [Literature](https://daltonmenezes.github.io/literature)
-- [Software](https://daltonmenezes.github.io/software)
+- [Sponsorship](https://daltonmenezes.com/sponsorship)
+- [Literature](https://daltonmenezes.com/literature)
+- [Software](https://daltonmenezes.com/software)
 - [Design](https://en.99designs.com.br/profiles/daltonmenezes)
-- [About](https://daltonmenezes.github.io/about)
-- [Contacts](https://daltonmenezes.github.io/contacts)
+- [About](https://daltonmenezes.com/about)
+- [Contacts](https://daltonmenezes.com/contacts)
 
