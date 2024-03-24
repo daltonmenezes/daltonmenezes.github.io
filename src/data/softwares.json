@@ -15,7 +15,7 @@
     "name": "useExitIntent",
     "i18n_key": "use_exit_intent_description",
     "URL": "https://use-exit-intent.daltonmenezes.com",
-    "image": "https://camo.githubusercontent.com/dbe670ecea36b59366b09cb0f6530898d02409129b1663be0ff31e753a527e07/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f612f61372f52656163742d69636f6e2e737667"
+    "image": "https://use-exit-intent.daltonmenezes.com/logo.png"
   },
   {
     "name": "Electron Router DOM",
