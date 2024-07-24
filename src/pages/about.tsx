@@ -1,5 +1,4 @@
 import { Head, Image, PageOverlay } from 'components'
-import { getYearsCoding } from 'shared/utils'
 import { meta } from 'shared/constants'
 import { useI18n } from 'hooks'
 
@@ -7,12 +6,7 @@ import { AboutContainer, AboutContent } from 'styles/pages'
 
 export default function About() {
   const { getMessage, getAllMessages } = useI18n()
-
   const { about } = getAllMessages()
-
-  function renderBIO() {
-    return getMessage('bio').replace('{YEARS_CODING}', getYearsCoding)
-  }
 
   return (
     <PageOverlay>
@@ -32,7 +26,7 @@ export default function About() {
             height={200}
             loading="lazy"
           />
-          <p>{renderBIO()}</p>
+          <p>{getMessage('bio')}</p>
         </AboutContent>
       </AboutContainer>
     </PageOverlay>
