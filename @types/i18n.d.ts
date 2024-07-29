@@ -35,6 +35,7 @@ namespace I18n {
       genre: string
       short_story: string
       aphorisms: string
+      opendocs_description: string
       interprocess_description: string
       aura_description: string
       electron_router_dom_description: string
@@ -76,6 +77,7 @@ namespace I18n {
       genre: string
       short_story: string
       aphorisms: string
+      opendocs_description: string
       interprocess_description: string
       aura_description: string
       electron_router_dom_description: string

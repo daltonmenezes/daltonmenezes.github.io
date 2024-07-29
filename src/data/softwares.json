@@ -1,5 +1,11 @@
 [
   {
+    "name": "opendocs",
+    "i18n_key": "opendocs_description",
+    "URL": "https://opendocs.daltonmenezes.com",
+    "image": "https://github.com/daltonmenezes/opendocs/blob/main/public/android-chrome-512x512.png?raw=true"
+  },
+  {
     "name": "Interprocess",
     "i18n_key": "interprocess_description",
     "URL": "https://interprocess.daltonmenezes.com",
